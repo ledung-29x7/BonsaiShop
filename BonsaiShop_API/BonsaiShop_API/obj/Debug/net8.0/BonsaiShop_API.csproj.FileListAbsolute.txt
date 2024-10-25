@@ -1,7 +1,0 @@
-E:\learn\BonsaiShop_API\BonsaiShop_API\obj\Debug\net8.0\BonsaiShop_API.csproj.AssemblyReference.cache
-E:\learn\BonsaiShop_API\BonsaiShop_API\obj\Debug\net8.0\BonsaiShop_API.GeneratedMSBuildEditorConfig.editorconfig
-E:\learn\BonsaiShop_API\BonsaiShop_API\obj\Debug\net8.0\BonsaiShop_API.AssemblyInfoInputs.cache
-E:\learn\BonsaiShop_API\BonsaiShop_API\obj\Debug\net8.0\BonsaiShop_API.AssemblyInfo.cs
-E:\learn\BonsaiShop_API\BonsaiShop_API\obj\Debug\net8.0\BonsaiShop_API.csproj.CoreCompileInputs.cache
-E:\learn\BonsaiShop_API\BonsaiShop_API\obj\Debug\net8.0\BonsaiShop_API.MvcApplicationPartsAssemblyInfo.cs
-E:\learn\BonsaiShop_API\BonsaiShop_API\obj\Debug\net8.0\BonsaiShop_API.MvcApplicationPartsAssemblyInfo.cache
