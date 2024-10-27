@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using BonsaiShop_API.Areas.Garden.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace BonsaiShop_API
 {
@@ -16,8 +17,9 @@ namespace BonsaiShop_API
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Plant>();
         }
 
-
+        public virtual DbSet<Plant> Plants { get; set; } = default!;
     }
 }

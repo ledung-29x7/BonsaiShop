@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\learn\\BonsaiShop_API\\BonsaiShop_API\\BonsaiShop_API.csproj": {}
+    "D:\\eProjectS2\\projectmini BE\\BonsaiShop\\BonsaiShop_API\\BonsaiShop_API.csproj": {}
   },
   "projects": {
-    "E:\\learn\\BonsaiShop_API\\BonsaiShop_API\\BonsaiShop_API.csproj": {
+    "D:\\eProjectS2\\projectmini BE\\BonsaiShop\\BonsaiShop_API\\BonsaiShop_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\learn\\BonsaiShop_API\\BonsaiShop_API\\BonsaiShop_API.csproj",
+        "projectUniqueName": "D:\\eProjectS2\\projectmini BE\\BonsaiShop\\BonsaiShop_API\\BonsaiShop_API.csproj",
         "projectName": "BonsaiShop_API",
-        "projectPath": "E:\\learn\\BonsaiShop_API\\BonsaiShop_API\\BonsaiShop_API.csproj",
-        "packagesPath": "C:\\Users\\lechu\\.nuget\\packages\\",
-        "outputPath": "E:\\learn\\BonsaiShop_API\\BonsaiShop_API\\obj\\",
+        "projectPath": "D:\\eProjectS2\\projectmini BE\\BonsaiShop\\BonsaiShop_API\\BonsaiShop_API.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\eProjectS2\\projectmini BE\\BonsaiShop\\BonsaiShop_API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lechu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -90,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
