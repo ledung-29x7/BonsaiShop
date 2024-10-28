@@ -83,8 +83,7 @@
               "RelativeToolTip": "BonsaiShop_API\\DALL\\Repositories\\IPlantRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T15:42:42.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T15:42:42.705Z"
             },
             {
               "$type": "Document",
@@ -96,8 +95,7 @@
               "RelativeToolTip": "BonsaiShop_API\\Areas\\Garden\\Controllers\\PlantController.cs",
               "ViewState": "AQIAACMAAAAAAAAAAAAwwDkAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T15:39:55.291Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T15:39:55.291Z"
             },
             {
               "$type": "Document",
@@ -109,8 +107,7 @@
               "RelativeToolTip": "BonsaiShop_API\\BonsaiShop_API.http",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-10-27T15:25:08.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T15:25:08.326Z"
             },
             {
               "$type": "Document",
@@ -122,8 +119,7 @@
               "RelativeToolTip": "BonsaiShop_API\\Script\\script.sql",
               "ViewState": "AQIAACQAAAAAAAAAAAAAADcAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-10-27T15:08:38.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T15:08:38.307Z"
             },
             {
               "$type": "Document",
@@ -135,8 +131,7 @@
               "RelativeToolTip": "BonsaiShop_API\\Areas\\Garden\\Models\\Plant.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T15:08:25.069Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T15:08:25.069Z"
             },
             {
               "$type": "Document",
@@ -148,8 +143,7 @@
               "RelativeToolTip": "BonsaiShop_API\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-25T01:21:00.56Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T01:21:00.56Z"
             },
             {
               "$type": "Document",
@@ -161,8 +155,7 @@
               "RelativeToolTip": "BonsaiShop_API\\Program.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T01:12:48.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T01:12:48.707Z"
             },
             {
               "$type": "Document",
@@ -174,8 +167,7 @@
               "RelativeToolTip": "BonsaiShop_API\\BonsaiDbcontext.cs",
               "ViewState": "AQIAAAYAAABAmJmZmZkdwBUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T01:13:26.196Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T01:13:26.196Z"
             }
           ]
         }

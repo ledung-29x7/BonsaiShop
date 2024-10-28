@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "BonsaiShop_API\\Program.cs",
               "ToolTip": "D:\\eProjectS2\\projectmini BE\\BonsaiShop\\BonsaiShop_API\\Program.cs",
               "RelativeToolTip": "BonsaiShop_API\\Program.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T14:43:01.715Z",
               "EditorCaption": ""
@@ -67,8 +67,7 @@
               "RelativeToolTip": "BonsaiShop_API\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-27T14:42:10.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T14:42:10.383Z"
             },
             {
               "$type": "Document",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "BonsaiShop_API\\appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-27T14:42:06.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T14:42:06.36Z"
             },
             {
               "$type": "Document",
@@ -93,8 +91,7 @@
               "RelativeToolTip": "BonsaiShop_API\\Script\\script.sql",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-10-27T14:41:56.542Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T14:41:56.542Z"
             },
             {
               "$type": "Document",
@@ -106,8 +103,7 @@
               "RelativeToolTip": ".gitignore",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-27T14:41:40.135Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T14:41:40.135Z"
             }
           ]
         }

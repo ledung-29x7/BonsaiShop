@@ -1,17 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\BonsaiShop_API",
-    "\\BonsaiShop_API\\Areas",
-    "\\BonsaiShop_API\\Areas\\Admin",
-    "\\BonsaiShop_API\\Areas\\Admin\\Models",
-    "\\BonsaiShop_API\\Areas\\User",
-    "\\BonsaiShop_API\\Areas\\User\\Controllers",
-    "\\BonsaiShop_API\\Areas\\User\\Models",
-    "\\BonsaiShop_API\\DALL",
-    "\\BonsaiShop_API\\DALL\\Repositories",
-    "\\BonsaiShop_API\\DALL\\RepositoriesImplement"
+    ""
   ],
-  "SelectedNode": "\\BonsaiShop_API\\Program.cs",
+  "SelectedNode": "\\BonsaiShop_API.sln",
   "PreviewInSolutionExplorer": false
 }
