@@ -2,8 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\BonsaiShop_API",
-    "\\BonsaiShop_API\\Controllers"
+    "\\BonsaiShop_API\\Areas",
+    "\\BonsaiShop_API\\Areas\\Auther",
+    "\\BonsaiShop_API\\Areas\\Auther\\Controller",
+    "\\BonsaiShop_API\\Areas\\Auther\\Model",
+    "\\BonsaiShop_API\\Areas\\Auther\\Model\\Dtos",
+    "\\BonsaiShop_API\\Areas\\Auther\\Service",
+    "\\BonsaiShop_API\\DALL",
+    "\\BonsaiShop_API\\DALL\\Repositories"
   ],
-  "SelectedNode": "\\BonsaiShop_API\\appsettings.json",
+  "SelectedNode": "\\BonsaiShop_API\\Areas\\Auther\\Controller\\AuthController.cs",
   "PreviewInSolutionExplorer": false
 }

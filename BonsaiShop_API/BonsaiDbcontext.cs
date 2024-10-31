@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿
+using BonsaiShop_API.Areas.Auther.Model;
+using Microsoft.EntityFrameworkCore;
 
 namespace BonsaiShop_API
 {
@@ -18,6 +20,7 @@ namespace BonsaiShop_API
             base.OnModelCreating(modelBuilder);
         }
 
+        public DbSet<User> Users { get; set; }
 
     }
 }
