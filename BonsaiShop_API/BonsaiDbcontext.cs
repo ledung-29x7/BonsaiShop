@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using BonsaiShop_API.Areas.Admin.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace BonsaiShop_API
 {
@@ -16,8 +17,11 @@ namespace BonsaiShop_API
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Categories>().HasKey(id=>id.CategoryId);
+            modelBuilder.Entity<Users>().HasKey(id =>id.UserId);
         }
-
-
+        public DbSet<Categories> Categories { get; set; }
+        public DbSet<Users> Users { get; set; }
+        public object RevenueDetails { get; internal set; }
     }
 }
