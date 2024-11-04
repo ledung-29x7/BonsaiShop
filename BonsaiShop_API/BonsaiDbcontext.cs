@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using BonsaiShop_API.Areas.Garden.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace BonsaiShop_API
 {
@@ -17,6 +18,9 @@ namespace BonsaiShop_API
         {
             base.OnModelCreating(modelBuilder);
         }
+        public DbSet<Plants> Plants { get; set; }
+        public DbSet<Order> Order { get; set; }
+        public DbSet<OrderDetail> OrderDetail { get; set; }
 
 
     }

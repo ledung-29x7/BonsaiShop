@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\learn\\BonsaiShop_API\\BonsaiShop_API\\BonsaiShop_API.csproj": {}
+    "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\BonsaiShop_API.csproj": {}
   },
   "projects": {
-    "E:\\learn\\BonsaiShop_API\\BonsaiShop_API\\BonsaiShop_API.csproj": {
+    "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\BonsaiShop_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\learn\\BonsaiShop_API\\BonsaiShop_API\\BonsaiShop_API.csproj",
+        "projectUniqueName": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\BonsaiShop_API.csproj",
         "projectName": "BonsaiShop_API",
-        "projectPath": "E:\\learn\\BonsaiShop_API\\BonsaiShop_API\\BonsaiShop_API.csproj",
-        "packagesPath": "C:\\Users\\lechu\\.nuget\\packages\\",
-        "outputPath": "E:\\learn\\BonsaiShop_API\\BonsaiShop_API\\obj\\",
+        "projectPath": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\BonsaiShop_API.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\lechu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -46,6 +50,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -90,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
