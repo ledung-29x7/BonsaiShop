@@ -22,6 +22,5 @@ namespace BonsaiShop_API
         }
         public DbSet<Categories> Categories { get; set; }
         public DbSet<Users> Users { get; set; }
-        public object RevenueDetails { get; internal set; }
     }
 }

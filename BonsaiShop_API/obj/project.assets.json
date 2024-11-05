@@ -8155,27 +8155,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\duong\\.nuget\\packages\\": {}
+    "/Users/macbook/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\duong\\Source\\Repos\\BonsaiShop\\BonsaiShop_API\\BonsaiShop_API.csproj",
+      "projectUniqueName": "/Users/macbook/Documents/code/BonsaiShop/Be/BonsaiShop/BonsaiShop_API/BonsaiShop_API.csproj",
       "projectName": "BonsaiShop_API",
-      "projectPath": "C:\\Users\\duong\\Source\\Repos\\BonsaiShop\\BonsaiShop_API\\BonsaiShop_API.csproj",
-      "packagesPath": "C:\\Users\\duong\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\duong\\Source\\Repos\\BonsaiShop\\BonsaiShop_API\\obj\\",
+      "projectPath": "/Users/macbook/Documents/code/BonsaiShop/Be/BonsaiShop/BonsaiShop_API/BonsaiShop_API.csproj",
+      "packagesPath": "/Users/macbook/.nuget/packages/",
+      "outputPath": "/Users/macbook/Documents/code/BonsaiShop/Be/BonsaiShop/BonsaiShop_API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\duong\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/macbook/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -8243,7 +8240,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
