@@ -31,8 +31,11 @@ import {
   Row,
   Col,
 } from "reactstrap";
+import { useSelector,useDispatch } from "react-redux";
 
 const Login = () => {
+  const {test} = useSelector(state => state.app)
+  
   return (
     <>
       <Col lg="5" md="7">
