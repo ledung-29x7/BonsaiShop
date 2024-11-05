@@ -7,9 +7,9 @@
     "\\BonsaiShop_API\\Areas\\Auther\\Controller",
     "\\BonsaiShop_API\\Areas\\Auther\\Model",
     "\\BonsaiShop_API\\Areas\\Auther\\Model\\Dtos",
-    "\\BonsaiShop_API\\Areas\\Auther\\Service",
     "\\BonsaiShop_API\\DALL",
-    "\\BonsaiShop_API\\DALL\\Repositories"
+    "\\BonsaiShop_API\\DALL\\RepositoriesImplement",
+    "\\BonsaiShop_API\\Script"
   ],
   "SelectedNode": "\\BonsaiShop_API\\Areas\\Auther\\Controller\\AuthController.cs",
   "PreviewInSolutionExplorer": false

@@ -9,5 +9,9 @@ namespace BonsaiShop_API.DALL.Repositories
         Task<User> GetUserById(int id);
 
         Task UpdateUser(User user);
+
+        Task UpdateUserRole(User user);
+
+        Task ChangePassword(int userId, string oldPasswordHash, string newPasswordHash);
     }
 }

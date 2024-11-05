@@ -3,20 +3,48 @@
   "WorkspaceRootPath": "E:\\learn\\BonsaiGit\\BonsaiShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|e:\\learn\\bonsaigit\\bonsaishop\\bonsaishop_api\\areas\\auther\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\areas\\auther\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|e:\\learn\\bonsaigit\\bonsaishop\\bonsaishop_api\\areas\\auther\\model\\dtos\\updateuserroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\areas\\auther\\model\\dtos\\updateuserroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|e:\\learn\\bonsaigit\\bonsaishop\\bonsaishop_api\\script\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\script\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|e:\\learn\\bonsaigit\\bonsaishop\\bonsaishop_api\\dall\\repositoriesimplement\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\dall\\repositoriesimplement\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|e:\\learn\\bonsaigit\\bonsaishop\\bonsaishop_api\\areas\\auther\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\areas\\auther\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|e:\\learn\\bonsaigit\\bonsaishop\\bonsaishop_api\\dall\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\dall\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|e:\\learn\\bonsaigit\\bonsaishop\\bonsaishop_api\\areas\\auther\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\areas\\auther\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|e:\\learn\\bonsaigit\\bonsaishop\\bonsaishop_api\\dall\\repositories\\itokenblacklistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\dall\\repositories\\itokenblacklistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|e:\\learn\\bonsaigit\\bonsaishop\\bonsaishop_api\\areas\\auther\\model\\dtos\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\areas\\auther\\model\\dtos\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|e:\\learn\\bonsaigit\\bonsaishop\\bonsaishop_api\\areas\\garden\\models\\gardens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\areas\\garden\\models\\gardens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|e:\\learn\\bonsaigit\\bonsaishop\\bonsaishop_api\\areas\\auther\\model\\dtos\\updateuserroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\areas\\auther\\model\\dtos\\updateuserroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|e:\\learn\\bonsaigit\\bonsaishop\\bonsaishop_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|e:\\learn\\bonsaigit\\bonsaishop\\bonsaishop_api\\areas\\auther\\model\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\areas\\auther\\model\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|e:\\learn\\bonsaigit\\bonsaishop\\bonsaishop_api\\areas\\auther\\model\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,32 +55,12 @@
       "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|e:\\learn\\bonsaigit\\bonsaishop\\bonsaishop_api\\script\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\script\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|e:\\learn\\bonsaigit\\bonsaishop\\bonsaishop_api\\areas\\auther\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\areas\\auther\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|e:\\learn\\bonsaigit\\bonsaishop\\bonsaishop_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|e:\\learn\\bonsaigit\\bonsaishop\\bonsaishop_api\\dall\\repositoriesimplement\\redistokenblacklistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\dall\\repositoriesimplement\\redistokenblacklistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|e:\\learn\\bonsaigit\\bonsaishop\\bonsaishop_api\\dall\\repositories\\itokenblacklistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\dall\\repositories\\itokenblacklistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|e:\\learn\\bonsaigit\\bonsaishop\\bonsaishop_api\\bonsaidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\bonsaidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|e:\\learn\\bonsaigit\\bonsaishop\\bonsaishop_api\\areas\\auther\\model\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\areas\\auther\\model\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|e:\\learn\\bonsaigit\\bonsaishop\\bonsaishop_api\\mappingprofile\\userregister_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,46 +82,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UpdateUserRoleDTO.cs",
-              "DocumentMoniker": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\Areas\\Auther\\Model\\Dtos\\UpdateUserRoleDTO.cs",
-              "RelativeDocumentMoniker": "BonsaiShop_API\\Areas\\Auther\\Model\\Dtos\\UpdateUserRoleDTO.cs",
-              "ToolTip": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\Areas\\Auther\\Model\\Dtos\\UpdateUserRoleDTO.cs",
-              "RelativeToolTip": "BonsaiShop_API\\Areas\\Auther\\Model\\Dtos\\UpdateUserRoleDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T09:27:33.269Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\appsettings.json",
-              "RelativeDocumentMoniker": "BonsaiShop_API\\appsettings.json",
-              "ToolTip": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\appsettings.json",
-              "RelativeToolTip": "BonsaiShop_API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-29T06:00:54.492Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AuthController.cs",
               "DocumentMoniker": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\Areas\\Auther\\Controller\\AuthController.cs",
               "RelativeDocumentMoniker": "BonsaiShop_API\\Areas\\Auther\\Controller\\AuthController.cs",
               "ToolTip": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\Areas\\Auther\\Controller\\AuthController.cs",
               "RelativeToolTip": "BonsaiShop_API\\Areas\\Auther\\Controller\\AuthController.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAmwFgAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAiwF8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T05:54:24.521Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T05:54:24.521Z"
             },
             {
               "$type": "Document",
@@ -123,27 +104,13 @@
               "RelativeDocumentMoniker": "BonsaiShop_API\\DALL\\Repositories\\IUserRepository.cs",
               "ToolTip": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\DALL\\Repositories\\IUserRepository.cs",
               "RelativeToolTip": "BonsaiShop_API\\DALL\\Repositories\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T05:31:40.23Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T05:31:40.23Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\Areas\\Auther\\Service\\AuthService.cs",
-              "RelativeDocumentMoniker": "BonsaiShop_API\\Areas\\Auther\\Service\\AuthService.cs",
-              "ToolTip": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\Areas\\Auther\\Service\\AuthService.cs",
-              "RelativeToolTip": "BonsaiShop_API\\Areas\\Auther\\Service\\AuthService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAwwCMAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T05:51:26.495Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "UserLoginDTO.cs",
               "DocumentMoniker": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\Areas\\Auther\\Model\\Dtos\\UserLoginDTO.cs",
               "RelativeDocumentMoniker": "BonsaiShop_API\\Areas\\Auther\\Model\\Dtos\\UserLoginDTO.cs",
@@ -151,25 +118,23 @@
               "RelativeToolTip": "BonsaiShop_API\\Areas\\Auther\\Model\\Dtos\\UserLoginDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T05:26:51.507Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T05:26:51.507Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\DALL\\RepositoriesImplement\\UserRepository.cs",
               "RelativeDocumentMoniker": "BonsaiShop_API\\DALL\\RepositoriesImplement\\UserRepository.cs",
               "ToolTip": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\DALL\\RepositoriesImplement\\UserRepository.cs",
               "RelativeToolTip": "BonsaiShop_API\\DALL\\RepositoriesImplement\\UserRepository.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAgwC4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAmwC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T05:34:35.305Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T05:34:35.305Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
               "Title": "ITokenBlacklistRepository.cs",
               "DocumentMoniker": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\DALL\\Repositories\\ITokenBlacklistRepository.cs",
               "RelativeDocumentMoniker": "BonsaiShop_API\\DALL\\Repositories\\ITokenBlacklistRepository.cs",
@@ -177,12 +142,23 @@
               "RelativeToolTip": "BonsaiShop_API\\DALL\\Repositories\\ITokenBlacklistRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T06:33:40.896Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T06:33:40.896Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\Areas\\Auther\\Service\\AuthService.cs",
+              "RelativeDocumentMoniker": "BonsaiShop_API\\Areas\\Auther\\Service\\AuthService.cs",
+              "ToolTip": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\Areas\\Auther\\Service\\AuthService.cs",
+              "RelativeToolTip": "BonsaiShop_API\\Areas\\Auther\\Service\\AuthService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAwwB0AAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T05:51:26.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "script.sql ",
               "DocumentMoniker": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\Script\\script.sql",
               "RelativeDocumentMoniker": "BonsaiShop_API\\Script\\script.sql",
@@ -194,46 +170,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\Program.cs",
-              "RelativeDocumentMoniker": "BonsaiShop_API\\Program.cs",
-              "ToolTip": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\Program.cs",
-              "RelativeToolTip": "BonsaiShop_API\\Program.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAswC4AAAAgAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "UpdateUserRoleDTO.cs",
+              "DocumentMoniker": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\Areas\\Auther\\Model\\Dtos\\UpdateUserRoleDTO.cs",
+              "RelativeDocumentMoniker": "BonsaiShop_API\\Areas\\Auther\\Model\\Dtos\\UpdateUserRoleDTO.cs",
+              "ToolTip": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\Areas\\Auther\\Model\\Dtos\\UpdateUserRoleDTO.cs",
+              "RelativeToolTip": "BonsaiShop_API\\Areas\\Auther\\Model\\Dtos\\UpdateUserRoleDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T05:19:15.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T09:27:33.269Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RedisTokenBlacklistRepository.cs",
-              "DocumentMoniker": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\DALL\\RepositoriesImplement\\RedisTokenBlacklistRepository.cs",
-              "RelativeDocumentMoniker": "BonsaiShop_API\\DALL\\RepositoriesImplement\\RedisTokenBlacklistRepository.cs",
-              "ToolTip": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\DALL\\RepositoriesImplement\\RedisTokenBlacklistRepository.cs",
-              "RelativeToolTip": "BonsaiShop_API\\DALL\\RepositoriesImplement\\RedisTokenBlacklistRepository.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBoAAAAyAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Gardens.cs",
+              "DocumentMoniker": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\Areas\\Garden\\Models\\Gardens.cs",
+              "RelativeDocumentMoniker": "BonsaiShop_API\\Areas\\Garden\\Models\\Gardens.cs",
+              "ToolTip": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\Areas\\Garden\\Models\\Gardens.cs",
+              "RelativeToolTip": "BonsaiShop_API\\Areas\\Garden\\Models\\Gardens.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBIAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T06:34:11.982Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T03:06:26.924Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BonsaiDbcontext.cs",
-              "DocumentMoniker": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\BonsaiDbcontext.cs",
-              "RelativeDocumentMoniker": "BonsaiShop_API\\BonsaiDbcontext.cs",
-              "ToolTip": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\BonsaiDbcontext.cs",
-              "RelativeToolTip": "BonsaiShop_API\\BonsaiDbcontext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "ChangePasswordDTO.cs",
+              "DocumentMoniker": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\Areas\\Auther\\Model\\Dtos\\ChangePasswordDTO.cs",
+              "RelativeDocumentMoniker": "BonsaiShop_API\\Areas\\Auther\\Model\\Dtos\\ChangePasswordDTO.cs",
+              "ToolTip": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\Areas\\Auther\\Model\\Dtos\\ChangePasswordDTO.cs",
+              "RelativeToolTip": "BonsaiShop_API\\Areas\\Auther\\Model\\Dtos\\ChangePasswordDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T05:23:00.731Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T03:26:32.717Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 10,
               "Title": "UserRegisterDTO.cs",
               "DocumentMoniker": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\Areas\\Auther\\Model\\Dtos\\UserRegisterDTO.cs",
               "RelativeDocumentMoniker": "BonsaiShop_API\\Areas\\Auther\\Model\\Dtos\\UserRegisterDTO.cs",
@@ -241,12 +214,59 @@
               "RelativeToolTip": "BonsaiShop_API\\Areas\\Auther\\Model\\Dtos\\UserRegisterDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T05:26:11.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T05:26:11.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\appsettings.json",
+              "RelativeDocumentMoniker": "BonsaiShop_API\\appsettings.json",
+              "ToolTip": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\appsettings.json",
+              "RelativeToolTip": "BonsaiShop_API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-29T06:00:54.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\Program.cs",
+              "RelativeDocumentMoniker": "BonsaiShop_API\\Program.cs",
+              "ToolTip": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\Program.cs",
+              "RelativeToolTip": "BonsaiShop_API\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAswC4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T05:19:15.473Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "RedisTokenBlacklistRepository.cs",
+              "DocumentMoniker": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\DALL\\RepositoriesImplement\\RedisTokenBlacklistRepository.cs",
+              "RelativeDocumentMoniker": "BonsaiShop_API\\DALL\\RepositoriesImplement\\RedisTokenBlacklistRepository.cs",
+              "ToolTip": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\DALL\\RepositoriesImplement\\RedisTokenBlacklistRepository.cs",
+              "RelativeToolTip": "BonsaiShop_API\\DALL\\RepositoriesImplement\\RedisTokenBlacklistRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T06:34:11.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BonsaiDbcontext.cs",
+              "DocumentMoniker": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\BonsaiDbcontext.cs",
+              "RelativeDocumentMoniker": "BonsaiShop_API\\BonsaiDbcontext.cs",
+              "ToolTip": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\BonsaiDbcontext.cs",
+              "RelativeToolTip": "BonsaiShop_API\\BonsaiDbcontext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T05:23:00.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "UserRegister_User.cs",
               "DocumentMoniker": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\MappingProfile\\UserRegister_User.cs",
               "RelativeDocumentMoniker": "BonsaiShop_API\\MappingProfile\\UserRegister_User.cs",
@@ -254,12 +274,11 @@
               "RelativeToolTip": "BonsaiShop_API\\MappingProfile\\UserRegister_User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T05:28:12.595Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T05:28:12.595Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "User.cs",
               "DocumentMoniker": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\Areas\\Auther\\Model\\User.cs",
               "RelativeDocumentMoniker": "BonsaiShop_API\\Areas\\Auther\\Model\\User.cs",
@@ -267,8 +286,7 @@
               "RelativeToolTip": "BonsaiShop_API\\Areas\\Auther\\Model\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T05:22:56.835Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T05:22:56.835Z"
             }
           ]
         }

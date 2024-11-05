@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "BonsaiShop_API.Areas.Auther.Controller.AuthController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/Auth/change-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "changePasswordDto",
+        "Type": "BonsaiShop_API.Areas.Auther.Model.Dtos.ChangePasswordDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BonsaiShop_API.Areas.Auther.Controller.AuthController",
     "Method": "Login",
     "RelativePath": "api/Auth/login",
     "HttpMethod": "POST",
@@ -36,6 +52,38 @@
       {
         "Name": "userDto",
         "Type": "BonsaiShop_API.Areas.Auther.Model.Dtos.UserRegisterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BonsaiShop_API.Areas.Auther.Controller.AuthController",
+    "Method": "UpdateUserRole",
+    "RelativePath": "api/Auth/update-role",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateUserRoleDto",
+        "Type": "BonsaiShop_API.Areas.Auther.Model.Dtos.UpdateUserRoleDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BonsaiShop_API.Areas.Auther.Controller.AuthController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/Auth/update-user",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "BonsaiShop_API.Areas.Auther.Model.User",
         "IsRequired": true
       }
     ],

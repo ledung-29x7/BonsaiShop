@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 
 namespace BonsaiShop_API.Areas.Auther.Controller
 {
@@ -75,6 +76,34 @@ namespace BonsaiShop_API.Areas.Auther.Controller
             return Ok(new { message = "Logged out successfully" });
         }
 
+        [Authorize]
+        [HttpPost("change-password")]
+        public async Task<IActionResult> ChangePassword([FromBody] ChangePasswordDTO changePasswordDto)
+        {
+            var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)?.Value);
+            var newPasswordHash = BCrypt.Net.BCrypt.HashPassword(changePasswordDto.NewPassword);
+
+            try
+            {
+                await _userRepository.ChangePassword(userId, changePasswordDto.OldPassword, newPasswordHash);
+                return Ok(new { message = "Password changed successfully." });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+        }
+
+
+
+        [Authorize]
+        [HttpPost("update-user")]
+        public async Task<IActionResult> UpdateUser(User user)
+        {
+            await _userRepository.UpdateUser(user);
+            return Ok();
+        }
+
         [Authorize(Policy = "AdminOnly")]
         [HttpPost("update-role")]
         public async Task<IActionResult> UpdateUserRole(UpdateUserRoleDTO updateUserRoleDto)
@@ -86,10 +115,12 @@ namespace BonsaiShop_API.Areas.Auther.Controller
             }
 
             user.Role = updateUserRoleDto.NewRole;
-            await _userRepository.UpdateUser(user);
+            await _userRepository.UpdateUserRole(user);
 
             return Ok(new { message = "User role updated successfully." });
         }
+
+
 
 
     }
