@@ -17,6 +17,10 @@
 */
 
 // reactstrap components
+// import * as apis from "../../apis"
+import { useState } from "react";
+import * as apis from "../../apis"
+import { useSelector,useDispatch } from "react-redux";
 import {
   Button,
   Card,
@@ -31,11 +35,38 @@ import {
   Row,
   Col,
 } from "reactstrap";
-import { useSelector,useDispatch } from "react-redux";
+import { useNavigate } from "react-router-dom";
+
 
 const Login = () => {
-  const {test} = useSelector(state => state.app)
-  
+  const {} = useSelector(state => state.app)
+  const navigate = useNavigate()
+  const [formData,setFormData] = useState({
+    email: "",
+    password: ""
+  })
+  const handleChange = (e) => {
+    setFormData({...formData, [e.target.name] :e.target.value })
+  }
+
+  const handleSubmit = (e) =>{
+    e.preventDefault()
+    const FetchData = async() =>{
+      try {
+        await apis.login(formData)
+        .then(res => {
+          if(res.status === 200) {
+            navigate('/')
+          }
+        })
+
+      } catch (error) {
+        console.log(error)
+      }
+    }
+    FetchData()
+  }
+
   return (
     <>
       <Col lg="5" md="7">
@@ -85,7 +116,7 @@ const Login = () => {
             <div className="text-center text-muted mb-4">
               <small>Or sign in with credentials</small>
             </div>
-            <Form role="form">
+            <Form onSubmit={handleSubmit} role="form">
               <FormGroup className="mb-3">
                 <InputGroup className="input-group-alternative">
                   <InputGroupAddon addonType="prepend">
@@ -96,6 +127,8 @@ const Login = () => {
                   <Input
                     placeholder="Email"
                     type="email"
+                    name="email"
+                    onChange={handleChange}
                     autoComplete="new-email"
                   />
                 </InputGroup>
@@ -110,6 +143,8 @@ const Login = () => {
                   <Input
                     placeholder="Password"
                     type="password"
+                    name="password"
+                    onChange={handleChange}
                     autoComplete="new-password"
                   />
                 </InputGroup>
@@ -128,7 +163,7 @@ const Login = () => {
                 </label>
               </div>
               <div className="text-center">
-                <Button className="my-4" color="primary" type="button">
+                <Button className="my-4" color="primary" type="submit">
                   Sign in
                 </Button>
               </div>

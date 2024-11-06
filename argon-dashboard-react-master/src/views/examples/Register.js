@@ -16,6 +16,9 @@
 
 */
 
+import { useState } from "react";
+import * as apis from "../../apis"
+
 // reactstrap components
 import {
   Button,
@@ -33,6 +36,32 @@ import {
 } from "reactstrap";
 
 const Register = () => {
+  const [formData,setFormData] = useState({
+    userName: "",
+    email: "",
+    password: ""
+  })
+  const handleChange = (e) => {
+    setFormData({...formData, [e.target.name] :e.target.value })
+  }
+
+  const handleSubmit = (e) =>{
+    e.preventDefault()
+    const FetchData = async() =>{
+      try {
+        await apis.register(formData)
+        .then(res => {
+          if(res.status === 200) {
+            console.log(res)
+          }
+        })
+
+      } catch (error) {
+        console.log(error)
+      }
+    }
+    FetchData()
+  }
   return (
     <>
       <Col lg="6" md="8">
@@ -82,7 +111,7 @@ const Register = () => {
             <div className="text-center text-muted mb-4">
               <small>Or sign up with credentials</small>
             </div>
-            <Form role="form">
+            <Form onSubmit={handleSubmit} role="form">
               <FormGroup>
                 <InputGroup className="input-group-alternative mb-3">
                   <InputGroupAddon addonType="prepend">
@@ -90,7 +119,7 @@ const Register = () => {
                       <i className="ni ni-hat-3" />
                     </InputGroupText>
                   </InputGroupAddon>
-                  <Input placeholder="Name" type="text" />
+                  <Input placeholder="Name" type="text" name="userName" onChange={handleChange} />
                 </InputGroup>
               </FormGroup>
               <FormGroup>
@@ -103,6 +132,8 @@ const Register = () => {
                   <Input
                     placeholder="Email"
                     type="email"
+                    name="email"
+                    onChange={handleChange}
                     autoComplete="new-email"
                   />
                 </InputGroup>
@@ -117,6 +148,8 @@ const Register = () => {
                   <Input
                     placeholder="Password"
                     type="password"
+                    name="password"
+                    onChange={handleChange}
                     autoComplete="new-password"
                   />
                 </InputGroup>
@@ -150,7 +183,7 @@ const Register = () => {
                 </Col>
               </Row>
               <div className="text-center">
-                <Button className="mt-4" color="primary" type="button">
+                <Button className="mt-4" color="primary" type="submit">
                   Create account
                 </Button>
               </div>
