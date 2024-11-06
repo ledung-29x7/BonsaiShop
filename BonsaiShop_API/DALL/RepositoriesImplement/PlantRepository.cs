@@ -1,33 +1,86 @@
 ﻿using BonsaiShop_API.Areas.Garden.Models;
 using BonsaiShop_API.DALL.Repositories;
+using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
 
 namespace BonsaiShop_API.DALL.RepositoriesImplement
 {
     public class PlantRepository : IPlantRepository
     {
-        public Task AddPlants(List<Plant> plants)
+        private BonsaiDbcontext dbcontext;
+        public PlantRepository(BonsaiDbcontext dbcontext)
         {
-            throw new NotImplementedException();
+            this.dbcontext = dbcontext;
+        }
+        public async Task AddPlants(List<Plant> plants)
+        {
+            var transaction = await dbcontext.Database.BeginTransactionAsync();
+            try
+            {
+                foreach (var plant in plants)
+                {
+                    var categoryId = new SqlParameter("@CategoryId", plant.CategoryId);
+                    var gardenId = new SqlParameter("@GardenId", plant.GardenId);
+                    var plantName = new SqlParameter("@PlantName", plant.PlantName);
+                    var price = new SqlParameter("@Price", plant.Price);
+                    var isAvailable = new SqlParameter("@IsAvailable", plant.IsAvailable);
+                    var description = new SqlParameter("@Description", plant.Description);
+                    var createAt = new SqlParameter("@CreateAt", plant.CreatedAt);
+                    await dbcontext.Database.ExecuteSqlRawAsync("EXEC dbo.AddPlants @CategoryId, @GardenId, @PlantName, @Price, @IsAvailable, @Description, @CreateAt",
+                        categoryId,gardenId,plantName, price,isAvailable,description,createAt
+                        );
+                }
+                await transaction.CommitAsync();
+            }
+            catch 
+            {
+                await transaction.RollbackAsync();
+                throw;
+            }
         }
 
-        public Task DeletePlant(int id)
+        public async Task DeletePlant(int id)
         {
-            throw new NotImplementedException();
+            var idPlant = new SqlParameter("@PlantId", id);
+            await dbcontext.Database.ExecuteSqlRawAsync("EXEC dbo.DeletePlants @PlantId ", idPlant);
         }
 
-        public Task<List<Plant>> GetAllPlants()
+        public async Task<List<Plant>> GetAllPlants()
         {
-            throw new NotImplementedException();
+            return await dbcontext.Plants.FromSqlRaw("EXEC dbo.GetAllPlant").ToListAsync();
         }
 
-        public Task<Plant> GetPlantById(int id)
+        public async Task<Plant> GetPlantById(int id)
         {
-            throw new NotImplementedException();
+            var idPlant = new SqlParameter("@PlantId", id);
+            var plantst = await dbcontext.Plants.FromSqlRaw("EXEC dbo.GetById", idPlant).ToListAsync();
+            return plantst.FirstOrDefault();
         }
 
-        public Task UpdatePlants(List<Plant> plants)
+        public async Task UpdatePlants(Plant plant)
         {
-            throw new NotImplementedException();
+            var transaction = await dbcontext.Database.BeginTransactionAsync();
+            try
+            {
+                
+                    var categoryId = new SqlParameter("@CategoryId", plant.CategoryId);
+                    var gardenId = new SqlParameter("@GardenId", plant.GardenId);
+                    var plantName = new SqlParameter("@PlantName", plant.PlantName);
+                    var price = new SqlParameter("@Price", plant.Price);
+                    var isAvailable = new SqlParameter("@IsAvailable", plant.IsAvailable);
+                    var description = new SqlParameter("@Description", plant.Description);
+                    var createAt = new SqlParameter("@CreatAt", plant.CreatedAt);
+                    await dbcontext.Database.ExecuteSqlRawAsync("EXEC @CategoryId, @GardenId, @PlantName, @Price, @IsAvailable, @Description, @CreateAt",
+                        categoryId, gardenId, plantName, price, isAvailable, description, createAt
+                        );
+                
+                await transaction.CommitAsync();
+            }
+            catch
+            {
+                await transaction.RollbackAsync();
+                throw;
+            }
         }
     }
 }

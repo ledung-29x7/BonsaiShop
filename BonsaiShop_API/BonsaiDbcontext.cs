@@ -17,9 +17,10 @@ namespace BonsaiShop_API
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            modelBuilder.Entity<Plant>();
+            
         }
 
-        public virtual DbSet<Plant> Plants { get; set; } = default!;
+        public virtual DbSet<Plant> Plants { get; set; }
+        public virtual DbSet<GardenImage> GardenImages { get; set; }
     }
 }

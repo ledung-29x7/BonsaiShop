@@ -264,3 +264,5 @@ D:\eProjectS2\projectmini BE\BonsaiShop\BonsaiShop_API\obj\Debug\net8.0\refint\B
 D:\eProjectS2\projectmini BE\BonsaiShop\BonsaiShop_API\obj\Debug\net8.0\BonsaiShop_API.pdb
 D:\eProjectS2\projectmini BE\BonsaiShop\BonsaiShop_API\obj\Debug\net8.0\BonsaiShop_API.genruntimeconfig.cache
 D:\eProjectS2\projectmini BE\BonsaiShop\BonsaiShop_API\obj\Debug\net8.0\ref\BonsaiShop_API.dll
+D:\eProjectS2\projectmini BE\BonsaiShop\BonsaiShop_API\obj\Debug\net8.0\BonsaiShop_API.RazorAssemblyInfo.cache
+D:\eProjectS2\projectmini BE\BonsaiShop\BonsaiShop_API\obj\Debug\net8.0\BonsaiShop_API.RazorAssemblyInfo.cs

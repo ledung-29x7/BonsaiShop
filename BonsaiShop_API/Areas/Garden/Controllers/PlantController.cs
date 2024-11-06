@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using BonsaiShop_API;
 using BonsaiShop_API.Areas.Garden.Models;
+using BonsaiShop_API.DALL.Repositories;
 
 namespace BonsaiShop_API.Areas.Garden.Controllers
 {
@@ -14,25 +15,26 @@ namespace BonsaiShop_API.Areas.Garden.Controllers
     [ApiController]
     public class PlantController : ControllerBase
     {
-        private readonly BonsaiDbcontext _context;
+        private readonly IPlantRepository _plantRepository;
 
-        public PlantController(BonsaiDbcontext context)
+        public PlantController(IPlantRepository plantRepository)
         {
-            _context = context;
+            _plantRepository = plantRepository;
         }
 
         // GET: api/Plant
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Plant>>> GetPlants()
         {
-            return await _context.Plants.ToListAsync();
+            var plant = await _plantRepository.GetAllPlants();
+            return Ok(plant);
         }
 
         // GET: api/Plant/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Plant>> GetPlant(int id)
         {
-            var plant = await _context.Plants.FindAsync(id);
+            var plant = await _plantRepository.GetPlantById(id);
 
             if (plant == null)
             {
@@ -47,20 +49,19 @@ namespace BonsaiShop_API.Areas.Garden.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutPlant(int id, Plant plant)
         {
+            var plants = await _plantRepository.GetAllPlants();
             if (id != plant.PlantId)
             {
                 return BadRequest();
             }
 
-            _context.Entry(plant).State = EntityState.Modified;
-
             try
             {
-                await _context.SaveChangesAsync();
+                await _plantRepository.UpdatePlants(plant);
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!PlantExists(id))
+                if (!plants.Any(e => e.PlantId == id))
                 {
                     return NotFound();
                 }
@@ -76,33 +77,25 @@ namespace BonsaiShop_API.Areas.Garden.Controllers
         // POST: api/Plant
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Plant>> PostPlant(Plant plant)
+        public async Task<ActionResult<Plant>> PostPlant(List<Plant> plant)
         {
-            _context.Plants.Add(plant);
-            await _context.SaveChangesAsync();
-
-            return CreatedAtAction("GetPlant", new { id = plant.PlantId }, plant);
+            await _plantRepository.AddPlants(plant);
+            return Ok();
         }
 
         // DELETE: api/Plant/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeletePlant(int id)
         {
-            var plant = await _context.Plants.FindAsync(id);
-            if (plant == null)
+            
+            if (id < 0)
             {
                 return NotFound();
             }
-
-            _context.Plants.Remove(plant);
-            await _context.SaveChangesAsync();
-
+             await _plantRepository.DeletePlant(id);
+            
             return NoContent();
         }
 
-        private bool PlantExists(int id)
-        {
-            return _context.Plants.Any(e => e.PlantId == id);
-        }
     }
 }

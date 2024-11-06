@@ -1,4 +1,6 @@
 using BonsaiShop_API;
+using BonsaiShop_API.DALL.Repositories;
+using BonsaiShop_API.DALL.RepositoriesImplement;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +14,7 @@ builder.Services.AddSwaggerGen();
 IConfiguration configuration = new ConfigurationBuilder().AddJsonFile("appsettings.json")
            .Build();
 builder.Services.AddDbContext<BonsaiDbcontext>(options => options.UseSqlServer(configuration.GetConnectionString("Bonsai")));
+builder.Services.AddScoped<IPlantRepository, PlantRepository>();
 
 var app = builder.Build();
 
