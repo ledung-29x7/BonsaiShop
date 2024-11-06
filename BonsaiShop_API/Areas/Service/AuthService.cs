@@ -4,7 +4,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
-namespace BonsaiShop_API.Areas.Auther.Service
+namespace BonsaiShop_API.Areas.Service
 {
     public class AuthService
     {

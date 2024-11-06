@@ -1,5 +1,7 @@
 ﻿
+using BonsaiShop_API.Areas.Admin.Models;
 using BonsaiShop_API.Areas.Auther.Model;
+using BonsaiShop_API.Areas.Garden.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace BonsaiShop_API
@@ -21,6 +23,11 @@ namespace BonsaiShop_API
         }
 
         public DbSet<User> Users { get; set; }
+        public DbSet<Categories> Categories { get; set; }
+        public DbSet<Gardens> Gardens { get; set; }
+        public DbSet<GardenImages> GardenImages { get; set; }
+        public DbSet<PlantImages> PlantImages { get; set; }
+        public DbSet<Plants> Plants { get; set; }
 
     }
 }

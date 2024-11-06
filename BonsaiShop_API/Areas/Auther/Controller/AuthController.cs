@@ -1,13 +1,13 @@
 ﻿using AutoMapper;
 using BonsaiShop_API.Areas.Auther.Model.Dtos;
 using BonsaiShop_API.Areas.Auther.Model;
-using BonsaiShop_API.Areas.Auther.Service;
 using BonsaiShop_API.DALL.Repositories;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
+using BonsaiShop_API.Areas.Service;
 
 namespace BonsaiShop_API.Areas.Auther.Controller
 {

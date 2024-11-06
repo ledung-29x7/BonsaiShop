@@ -270,3 +270,6 @@ E:\learn\BonsaiGit\BonsaiShop\BonsaiShop_API\obj\Debug\net8.0\BonsaiShop_API.gen
 E:\learn\BonsaiGit\BonsaiShop\BonsaiShop_API\obj\Debug\net8.0\ref\BonsaiShop_API.dll
 E:\learn\BonsaiGit\BonsaiShop\BonsaiShop_API\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
 E:\learn\BonsaiGit\BonsaiShop\BonsaiShop_API\bin\Debug\net8.0\StackExchange.Redis.dll
+E:\learn\BonsaiGit\BonsaiShop\BonsaiShop_API\bin\Debug\net8.0\Scrutor.dll
+E:\learn\BonsaiGit\BonsaiShop\BonsaiShop_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.dll
+E:\learn\BonsaiGit\BonsaiShop\BonsaiShop_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll

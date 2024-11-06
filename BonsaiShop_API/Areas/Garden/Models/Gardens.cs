@@ -2,7 +2,7 @@
 {
     public class Gardens
     {
-        private int gadenId;
+        private int gardenId;
         private int gardenOwnerId;
         private string gardenName;
         private string address;
@@ -10,7 +10,7 @@
         private string description;
         private DateTime createAt;
 
-        public int GadenId { get => gadenId; set => gadenId = value; }
+        public int GardenId { get => gardenId; set => gardenId = value; }
         public int GardenOwnerId { get => gardenOwnerId; set => gardenOwnerId = value; }
         public string GardenName { get => gardenName; set => gardenName = value; }
         public string Address { get => address; set => address = value; }

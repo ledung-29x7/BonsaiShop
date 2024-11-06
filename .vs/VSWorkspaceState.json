@@ -3,14 +3,14 @@
     "",
     "\\BonsaiShop_API",
     "\\BonsaiShop_API\\Areas",
-    "\\BonsaiShop_API\\Areas\\Auther",
-    "\\BonsaiShop_API\\Areas\\Auther\\Controller",
-    "\\BonsaiShop_API\\Areas\\Auther\\Model",
-    "\\BonsaiShop_API\\Areas\\Auther\\Model\\Dtos",
+    "\\BonsaiShop_API\\Areas\\Admin",
+    "\\BonsaiShop_API\\Areas\\Admin\\Models",
+    "\\BonsaiShop_API\\Areas\\Service",
     "\\BonsaiShop_API\\DALL",
     "\\BonsaiShop_API\\DALL\\RepositoriesImplement",
+    "\\BonsaiShop_API\\MappingProfile",
     "\\BonsaiShop_API\\Script"
   ],
-  "SelectedNode": "\\BonsaiShop_API\\Areas\\Auther\\Controller\\AuthController.cs",
+  "SelectedNode": "\\BonsaiShop_API\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -1,20 +1,27 @@
 ﻿using BonsaiShop_API;
-using BonsaiShop_API.Areas.Auther.Service;
+using BonsaiShop_API.Areas.Service;
 using BonsaiShop_API.DALL.Repositories;
 using BonsaiShop_API.DALL.RepositoriesImplement;
 using BonsaiShop_API.MappingProfile;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using StackExchange.Redis;
 using System.Text;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Register services and repositories
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
+    // Áp dụng `SwaggerFileOperationFilter` để hỗ trợ upload file
+    c.OperationFilter<SwaggerFileOperationFilter>();
+});
 
 
 // Use existing builder.Configuration to load settings
@@ -26,9 +33,20 @@ builder.Services.AddSingleton<IConnectionMultiplexer>(ConnectionMultiplexer.Conn
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<AuthService>();
 builder.Services.AddScoped<ITokenBlacklistRepository, RedisTokenBlacklistRepository>();
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+builder.Services.AddScoped<IGardenImageRepository, GardenImageRepository>();
+builder.Services.AddScoped<IPlantImageRepository, PlantImageRepository>();
+
+
 
 // Register services mapping
 builder.Services.AddAutoMapper(typeof(UserRegister_User));
+builder.Services.AddAutoMapper(typeof(CategoryProfile));
+builder.Services.AddAutoMapper(typeof(GardenProfile));
+builder.Services.AddAutoMapper(typeof(ImageProfile));
+
+
+
 
 // Phan quyen
 builder.Services.AddAuthorization(options =>
@@ -78,6 +96,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             }
         };
     });
+
 
 builder.Services.AddControllers();
 
