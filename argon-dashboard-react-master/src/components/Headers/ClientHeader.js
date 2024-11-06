@@ -13,14 +13,11 @@ import {
 
 const ClientHeader = () => {
   return (
-    <div>
-      <Navbar className="navbar-top navbar-horizontal navbar-dark" expand="md">
+    <div >
+      <Navbar className="navbar-top navbar-horizontal navbar-dark bg-transparent" expand="md">
         <Container className="px-4">
           <NavbarBrand to="/" tag={Link}>
-            <img
-              alt="..."
-              src={require("../../assets/img/brand/argon-react-white.png")}
-            />
+            <span className=" font-weight-bolder text-green text-xl">PLAMT</span>
           </NavbarBrand>
           <button className="navbar-toggler" id="navbar-collapse-main">
             <span className="navbar-toggler-icon" />
@@ -30,10 +27,7 @@ const ClientHeader = () => {
               <Row>
                 <Col className="collapse-brand" xs="6">
                   <Link to="/">
-                    <img
-                      alt="..."
-                      src={require("../../assets/img/brand/argon-react.png")}
-                    />
+                    <span className=" font-weight-bolder text-lg text-green">PLAMT</span>
                   </Link>
                 </Col>
                 <Col className="collapse-close" xs="6">
@@ -44,37 +38,37 @@ const ClientHeader = () => {
                 </Col>
               </Row>
             </div>
-            <Nav className="ml-auto" navbar>
+            <Nav className=" ml-9" navbar>
               <NavItem>
-                <NavLink className="nav-link-icon" to="/" tag={Link}>
-                  <i className="ni ni-planet" />
-                  <span className="nav-link-inner--text">Dashboard</span>
+                <NavLink className="nav-link-icon text-darker" to="/" tag={Link}>
+                  <i className="ni ni-planet " />
+                  <span className="nav-link-inner--text font-weight-600">Dashboard</span>
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink
-                  className="nav-link-icon"
+                  className="nav-link-icon text-darker"
                   to="/auth/register"
                   tag={Link}
                 >
-                  <i className="ni ni-circle-08" />
-                  <span className="nav-link-inner--text">Register</span>
+                  <i className="ni ni-circle-08 " />
+                  <span className="nav-link-inner--text font-weight-600">Register</span>
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="nav-link-icon" to="/auth/login" tag={Link}>
+                <NavLink className="nav-link-icon text-darker" to="/auth/login" tag={Link}>
                   <i className="ni ni-key-25" />
-                  <span className="nav-link-inner--text">Login</span>
+                  <span className="nav-link-inner--text font-weight-600">Login</span>
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink
-                  className="nav-link-icon"
+                  className="nav-link-icon text-darker"
                   to="/admin/user-profile"
                   tag={Link}
                 >
                   <i className="ni ni-single-02" />
-                  <span className="nav-link-inner--text">Profile</span>
+                  <span className="nav-link-inner--text font-weight-600">Profile</span>
                 </NavLink>
               </NavItem>
             </Nav>
