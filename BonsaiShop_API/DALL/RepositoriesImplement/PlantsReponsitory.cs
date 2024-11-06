@@ -17,7 +17,7 @@ namespace BonsaiShop_API.DALL.RepositoriesImplement
             _dbContext = dbContext;
         }
 
-        public async Task<IEnumerable<PlantWithImageDto>> SearchPlantsAsync(string plantName, string? categoryName, decimal? minPrice, decimal? maxPrice, bool isAvailable)
+        public async Task<IEnumerable<PlantWithImageDto>> SearchPlantsAsync(string plantName, string categoryName, decimal? minPrice, decimal? maxPrice, bool isAvailable)
         {
             using (var connection = _dbContext.Database.GetDbConnection())
             {
@@ -25,8 +25,8 @@ namespace BonsaiShop_API.DALL.RepositoriesImplement
 
                 var parameters = new DynamicParameters();
                 parameters.Add("@PlantName", plantName, DbType.String);
-                parameters.Add("@CategoryName", categoryName, DbType.Int32);
-                parameters.Add("@MinPrice", minPrice, DbType.Decimal);
+                parameters.Add("@CategoryName", categoryName, DbType.String);
+                parameters.Add("@MinPrice", minPrice, DbType.Decimal);  
                 parameters.Add("@MaxPrice", maxPrice, DbType.Decimal);
                 parameters.Add("@IsAvailable", isAvailable, DbType.Boolean);
 

@@ -14,7 +14,11 @@ builder.Services.AddSwaggerGen();
 IConfiguration configuration = new ConfigurationBuilder().AddJsonFile("appsettings.json")
            .Build();
 builder.Services.AddDbContext<BonsaiDbcontext>(options => options.UseSqlServer(configuration.GetConnectionString("Bonsai")));
+
+
 builder.Services.AddScoped<IPlantsRepository , PlantsRepository>();
+builder.Services.AddScoped<IOrderReponsitory, OrderRepository>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -21,12 +21,18 @@ namespace BonsaiShop_API.Areas.Garden.Controllers
         // GET /api/plants/search - Search plants with filters
         [HttpGet("search")]
         public async Task<IActionResult> SearchPlants(
-            [FromQuery] string plantName,
-            [FromQuery] string? categoryName,
-            [FromQuery] decimal? minPrice,
-            [FromQuery] decimal? maxPrice,
+            [FromQuery] string plantName = null,
+            [FromQuery] string categoryName = null,
+            [FromQuery] decimal? minPrice = null,
+            [FromQuery] decimal? maxPrice = null,
             [FromQuery] bool isAvailable = true)
         {
+            // Kiểm tra ít nhất một tiêu chí được cung cấp
+            if (string.IsNullOrEmpty(plantName) && string.IsNullOrEmpty(categoryName) && !minPrice.HasValue && !maxPrice.HasValue)
+            {
+                return BadRequest(new { status = "error", message = "Please provide at least one search criterion." });
+            }
+
             var plants = await plantsRepository.SearchPlantsAsync(
                 plantName, categoryName, minPrice, maxPrice, isAvailable);
 
@@ -44,6 +50,5 @@ namespace BonsaiShop_API.Areas.Garden.Controllers
 
             return Ok(plantDtos);
         }
-
     }
 }

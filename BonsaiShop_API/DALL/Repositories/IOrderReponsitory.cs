@@ -1,12 +1,11 @@
-﻿using BonsaiShop_API.Areas.Garden.Models;
+﻿using BonsaiShop_API.Areas.User.Models;
 
 namespace BonsaiShop_API.DALL.Repositories
 {
     public interface IOrderReponsitory
     {
-        //Task<int> CreateOrder(Order order);
-        //Task DepositOrder(int orderId, decimal depositAmount);
-        //Task<IEnumerable<Order>> GetOrdersByCustomer(int customerId);
-        //Task<OrderDetail> GetOrderDetails(int orderId);
+        Task<string> CreateOrderAsync(Order order);
+           Task<List<Order>> GetOrdersAsync(int? orderId = null);
+        Task<List<OrderDetail>> GetOrderDetailsAsync(int orderId);
     }
 }
