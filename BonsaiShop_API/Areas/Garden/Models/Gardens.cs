@@ -1,4 +1,6 @@
-﻿namespace BonsaiShop_API.Areas.Garden.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace BonsaiShop_API.Areas.Garden.Models
 {
     public class Gardens
     {
@@ -9,7 +11,7 @@
         private string phone;
         private string description;
         private DateTime createAt;
-
+        [Key]
         public int GardenId { get => gardenId; set => gardenId = value; }
         public int GardenOwnerId { get => gardenOwnerId; set => gardenOwnerId = value; }
         public string GardenName { get => gardenName; set => gardenName = value; }

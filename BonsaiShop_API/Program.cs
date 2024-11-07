@@ -36,6 +36,8 @@ builder.Services.AddScoped<ITokenBlacklistRepository, RedisTokenBlacklistReposit
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<IGardenImageRepository, GardenImageRepository>();
 builder.Services.AddScoped<IPlantImageRepository, PlantImageRepository>();
+builder.Services.AddScoped<IPlantRepository, PlantRepository>();
+
 
 
 
@@ -44,6 +46,8 @@ builder.Services.AddAutoMapper(typeof(UserRegister_User));
 builder.Services.AddAutoMapper(typeof(CategoryProfile));
 builder.Services.AddAutoMapper(typeof(GardenProfile));
 builder.Services.AddAutoMapper(typeof(ImageProfile));
+builder.Services.AddAutoMapper(typeof(PlantProfile));
+
 
 
 

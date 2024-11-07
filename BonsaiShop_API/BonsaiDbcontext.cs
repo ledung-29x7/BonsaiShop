@@ -19,6 +19,10 @@ namespace BonsaiShop_API
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Plants>()
+            .HasMany(p => p.Images)
+            .WithOne(i => i.Plant)
+            .HasForeignKey(i => i.PlantId);
             base.OnModelCreating(modelBuilder);
         }
 

@@ -9,7 +9,7 @@ namespace BonsaiShop_API.Areas.Garden.Models
         private int gardenId;
         private string plantName;
         private decimal price;
-        private bool isAailable;
+        private bool isAvailable;
         private string description;
         private DateTime createdAt;
 
@@ -19,8 +19,10 @@ namespace BonsaiShop_API.Areas.Garden.Models
         public int GardenId { get => gardenId; set => gardenId = value; }
         public string PlantName { get => plantName; set => plantName = value; }
         public decimal Price { get => price; set => price = value; }
-        public bool IsAailable { get => isAailable; set => isAailable = value; }
+        public bool IsAailable { get => isAvailable; set => isAvailable = value; }
         public string Description { get => description; set => description = value; }
         public DateTime CreatedAt { get => createdAt; set => createdAt = value; }
+
+        public ICollection<PlantImages> Images { get; set; }
     }
 }
