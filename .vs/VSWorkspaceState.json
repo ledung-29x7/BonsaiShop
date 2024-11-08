@@ -1,9 +1,7 @@
 {
   "ExpandedNodes": [
     "",
-    "\\BonsaiShop_API",
-    "\\BonsaiShop_API\\Controllers"
+    "\\BonsaiShop_API"
   ],
-  "SelectedNode": "\\BonsaiShop_API\\appsettings.json",
   "PreviewInSolutionExplorer": false
 }

@@ -18,7 +18,7 @@ builder.Services.AddDbContext<BonsaiDbcontext>(options => options.UseSqlServer(c
 
 builder.Services.AddScoped<IPlantsRepository , PlantsRepository>();
 builder.Services.AddScoped<IOrderReponsitory, OrderRepository>();
-
+builder.Services.AddScoped<IGardensReponsitory , GardenReponsitory>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
