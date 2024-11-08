@@ -8203,11 +8203,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "D:\\ProJectC_SEM3\\BE_TASK2\\BonsaiShop\\BonsaiShop_API\\BonsaiShop_API.csproj",
       "projectName": "BonsaiShop_API",
       "projectPath": "D:\\ProJectC_SEM3\\BE_TASK2\\BonsaiShop\\BonsaiShop_API\\BonsaiShop_API.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
       "outputPath": "D:\\ProJectC_SEM3\\BE_TASK2\\BonsaiShop\\BonsaiShop_API\\obj\\",
+=======
+      "projectUniqueName": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\BonsaiShop_API.csproj",
+      "projectName": "BonsaiShop_API",
+      "projectPath": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\BonsaiShop_API.csproj",
+      "packagesPath": "C:\\Users\\lechu\\.nuget\\packages\\",
+      "outputPath": "E:\\learn\\BonsaiGit\\BonsaiShop\\BonsaiShop_API\\obj\\",
+>>>>>>> BaseBE
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
