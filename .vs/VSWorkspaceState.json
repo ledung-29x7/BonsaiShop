@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BonsaiShop_API",
+    "\\BonsaiShop_API\\Areas",
+    "\\BonsaiShop_API\\Areas\\Auther",
+    "\\BonsaiShop_API\\Areas\\Auther\\Controller",
+    "\\BonsaiShop_API\\Areas\\Garden",
+    "\\BonsaiShop_API\\Areas\\Garden\\Models",
+    "\\BonsaiShop_API\\DALL",
+    "\\BonsaiShop_API\\DALL\\Repositories",
+    "\\BonsaiShop_API\\MappingProfile",
+    "\\BonsaiShop_API\\Script"
+  ],
+  "PreviewInSolutionExplorer": false
+}

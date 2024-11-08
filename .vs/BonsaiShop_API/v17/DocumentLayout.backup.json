@@ -1,0 +1,298 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\duong\\source\\repos\\Tuan1\\BonsaiShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|c:\\users\\duong\\source\\repos\\tuan1\\bonsaishop\\bonsaishop_api\\areas\\garden\\controllers\\plantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\areas\\garden\\controllers\\plantscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|c:\\users\\duong\\source\\repos\\tuan1\\bonsaishop\\bonsaishop_api\\areas\\garden\\controllers\\gardenscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\areas\\garden\\controllers\\gardenscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|c:\\users\\duong\\source\\repos\\tuan1\\bonsaishop\\bonsaishop_api\\dall\\repositories\\iplantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\dall\\repositories\\iplantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|c:\\users\\duong\\source\\repos\\tuan1\\bonsaishop\\bonsaishop_api\\dall\\repositoriesimplement\\plantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\dall\\repositoriesimplement\\plantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|c:\\users\\duong\\source\\repos\\tuan1\\bonsaishop\\bonsaishop_api\\mappingprofile\\plantprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\mappingprofile\\plantprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|c:\\users\\duong\\source\\repos\\tuan1\\bonsaishop\\bonsaishop_api\\mappingprofile\\gardenprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\mappingprofile\\gardenprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|c:\\users\\duong\\source\\repos\\tuan1\\bonsaishop\\bonsaishop_api\\areas\\auther\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\areas\\auther\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|c:\\users\\duong\\source\\repos\\tuan1\\bonsaishop\\bonsaishop_api\\areas\\garden\\models\\plantimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\areas\\garden\\models\\plantimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|c:\\users\\duong\\source\\repos\\tuan1\\bonsaishop\\bonsaishop_api\\areas\\garden\\models\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\areas\\garden\\models\\plant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|c:\\users\\duong\\source\\repos\\tuan1\\bonsaishop\\bonsaishop_api\\areas\\garden\\models\\gardens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\areas\\garden\\models\\gardens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|c:\\users\\duong\\source\\repos\\tuan1\\bonsaishop\\bonsaishop_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|c:\\users\\duong\\source\\repos\\tuan1\\bonsaishop\\bonsaishop_api\\dall\\repositoriesimplement\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\dall\\repositoriesimplement\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|c:\\users\\duong\\source\\repos\\tuan1\\bonsaishop\\bonsaishop_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|c:\\users\\duong\\source\\repos\\tuan1\\bonsaishop\\bonsaishop_api\\bonsaidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\bonsaidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|c:\\users\\duong\\source\\repos\\tuan1\\bonsaishop\\bonsaishop_api\\script\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\script\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|c:\\users\\duong\\source\\repos\\tuan1\\bonsaishop\\bonsaishop_api\\script\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\script\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GardenProfile.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\source\\repos\\Tuan1\\BonsaiShop\\BonsaiShop_API\\MappingProfile\\GardenProfile.cs",
+              "RelativeDocumentMoniker": "BonsaiShop_API\\MappingProfile\\GardenProfile.cs",
+              "ToolTip": "C:\\Users\\duong\\source\\repos\\Tuan1\\BonsaiShop\\BonsaiShop_API\\MappingProfile\\GardenProfile.cs",
+              "RelativeToolTip": "BonsaiShop_API\\MappingProfile\\GardenProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T09:50:53.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlantsController.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\source\\repos\\Tuan1\\BonsaiShop\\BonsaiShop_API\\Areas\\Garden\\Controllers\\PlantsController.cs",
+              "RelativeDocumentMoniker": "BonsaiShop_API\\Areas\\Garden\\Controllers\\PlantsController.cs",
+              "ToolTip": "C:\\Users\\duong\\source\\repos\\Tuan1\\BonsaiShop\\BonsaiShop_API\\Areas\\Garden\\Controllers\\PlantsController.cs",
+              "RelativeToolTip": "BonsaiShop_API\\Areas\\Garden\\Controllers\\PlantsController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T07:30:18.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlantProfile.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\source\\repos\\Tuan1\\BonsaiShop\\BonsaiShop_API\\MappingProfile\\PlantProfile.cs",
+              "RelativeDocumentMoniker": "BonsaiShop_API\\MappingProfile\\PlantProfile.cs",
+              "ToolTip": "C:\\Users\\duong\\source\\repos\\Tuan1\\BonsaiShop\\BonsaiShop_API\\MappingProfile\\PlantProfile.cs",
+              "RelativeToolTip": "BonsaiShop_API\\MappingProfile\\PlantProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T09:19:05.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlantRepository.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\source\\repos\\Tuan1\\BonsaiShop\\BonsaiShop_API\\DALL\\RepositoriesImplement\\PlantRepository.cs",
+              "RelativeDocumentMoniker": "BonsaiShop_API\\DALL\\RepositoriesImplement\\PlantRepository.cs",
+              "ToolTip": "C:\\Users\\duong\\source\\repos\\Tuan1\\BonsaiShop\\BonsaiShop_API\\DALL\\RepositoriesImplement\\PlantRepository.cs",
+              "RelativeToolTip": "BonsaiShop_API\\DALL\\RepositoriesImplement\\PlantRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBsAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T07:26:42.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IPlantRepository.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\source\\repos\\Tuan1\\BonsaiShop\\BonsaiShop_API\\DALL\\Repositories\\IPlantRepository.cs",
+              "RelativeDocumentMoniker": "BonsaiShop_API\\DALL\\Repositories\\IPlantRepository.cs",
+              "ToolTip": "C:\\Users\\duong\\source\\repos\\Tuan1\\BonsaiShop\\BonsaiShop_API\\DALL\\Repositories\\IPlantRepository.cs",
+              "RelativeToolTip": "BonsaiShop_API\\DALL\\Repositories\\IPlantRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T07:25:56.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GardensController.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\source\\repos\\Tuan1\\BonsaiShop\\BonsaiShop_API\\Areas\\Garden\\Controllers\\GardensController.cs",
+              "RelativeDocumentMoniker": "BonsaiShop_API\\Areas\\Garden\\Controllers\\GardensController.cs",
+              "ToolTip": "C:\\Users\\duong\\source\\repos\\Tuan1\\BonsaiShop\\BonsaiShop_API\\Areas\\Garden\\Controllers\\GardensController.cs",
+              "RelativeToolTip": "BonsaiShop_API\\Areas\\Garden\\Controllers\\GardensController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T09:31:17.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Gardens.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\source\\repos\\Tuan1\\BonsaiShop\\BonsaiShop_API\\Areas\\Garden\\Models\\Gardens.cs",
+              "RelativeDocumentMoniker": "BonsaiShop_API\\Areas\\Garden\\Models\\Gardens.cs",
+              "ToolTip": "C:\\Users\\duong\\source\\repos\\Tuan1\\BonsaiShop\\BonsaiShop_API\\Areas\\Garden\\Models\\Gardens.cs",
+              "RelativeToolTip": "BonsaiShop_API\\Areas\\Garden\\Models\\Gardens.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T08:53:40.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\source\\repos\\Tuan1\\BonsaiShop\\BonsaiShop_API\\Areas\\Auther\\Controller\\AuthController.cs",
+              "RelativeDocumentMoniker": "BonsaiShop_API\\Areas\\Auther\\Controller\\AuthController.cs",
+              "ToolTip": "C:\\Users\\duong\\source\\repos\\Tuan1\\BonsaiShop\\BonsaiShop_API\\Areas\\Auther\\Controller\\AuthController.cs",
+              "RelativeToolTip": "BonsaiShop_API\\Areas\\Auther\\Controller\\AuthController.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAkwG8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T09:32:53.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\duong\\source\\repos\\Tuan1\\BonsaiShop\\BonsaiShop_API\\appsettings.json",
+              "RelativeDocumentMoniker": "BonsaiShop_API\\appsettings.json",
+              "ToolTip": "C:\\Users\\duong\\source\\repos\\Tuan1\\BonsaiShop\\BonsaiShop_API\\appsettings.json",
+              "RelativeToolTip": "BonsaiShop_API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-08T08:02:49.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\source\\repos\\Tuan1\\BonsaiShop\\BonsaiShop_API\\DALL\\RepositoriesImplement\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "BonsaiShop_API\\DALL\\RepositoriesImplement\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\duong\\source\\repos\\Tuan1\\BonsaiShop\\BonsaiShop_API\\DALL\\RepositoriesImplement\\CategoryRepository.cs",
+              "RelativeToolTip": "BonsaiShop_API\\DALL\\RepositoriesImplement\\CategoryRepository.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T07:08:57.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Plant.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\source\\repos\\Tuan1\\BonsaiShop\\BonsaiShop_API\\Areas\\Garden\\Models\\Plant.cs",
+              "RelativeDocumentMoniker": "BonsaiShop_API\\Areas\\Garden\\Models\\Plant.cs",
+              "ToolTip": "C:\\Users\\duong\\source\\repos\\Tuan1\\BonsaiShop\\BonsaiShop_API\\Areas\\Garden\\Models\\Plant.cs",
+              "RelativeToolTip": "BonsaiShop_API\\Areas\\Garden\\Models\\Plant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T06:53:02.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\source\\repos\\Tuan1\\BonsaiShop\\BonsaiShop_API\\Program.cs",
+              "RelativeDocumentMoniker": "BonsaiShop_API\\Program.cs",
+              "ToolTip": "C:\\Users\\duong\\source\\repos\\Tuan1\\BonsaiShop\\BonsaiShop_API\\Program.cs",
+              "RelativeToolTip": "BonsaiShop_API\\Program.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAC4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T06:43:01.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlantImages.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\source\\repos\\Tuan1\\BonsaiShop\\BonsaiShop_API\\Areas\\Garden\\Models\\PlantImages.cs",
+              "RelativeDocumentMoniker": "BonsaiShop_API\\Areas\\Garden\\Models\\PlantImages.cs",
+              "ToolTip": "C:\\Users\\duong\\source\\repos\\Tuan1\\BonsaiShop\\BonsaiShop_API\\Areas\\Garden\\Models\\PlantImages.cs",
+              "RelativeToolTip": "BonsaiShop_API\\Areas\\Garden\\Models\\PlantImages.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAjwBUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T07:31:10.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BonsaiDbcontext.cs",
+              "DocumentMoniker": "C:\\Users\\duong\\source\\repos\\Tuan1\\BonsaiShop\\BonsaiShop_API\\BonsaiDbcontext.cs",
+              "RelativeDocumentMoniker": "BonsaiShop_API\\BonsaiDbcontext.cs",
+              "ToolTip": "C:\\Users\\duong\\source\\repos\\Tuan1\\BonsaiShop\\BonsaiShop_API\\BonsaiDbcontext.cs",
+              "RelativeToolTip": "BonsaiShop_API\\BonsaiDbcontext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T06:53:40.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "script.sql ",
+              "DocumentMoniker": "C:\\Users\\duong\\source\\repos\\Tuan1\\BonsaiShop\\BonsaiShop_API\\Script\\script.sql",
+              "RelativeDocumentMoniker": "BonsaiShop_API\\Script\\script.sql",
+              "ToolTip": "C:\\Users\\duong\\source\\repos\\Tuan1\\BonsaiShop\\BonsaiShop_API\\Script\\script.sql",
+              "RelativeToolTip": "BonsaiShop_API\\Script\\script.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-08T06:36:42.404Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -4,10 +4,9 @@ namespace BonsaiShop_API.DALL.Repositories
 {
     public interface IPlantRepository
     {
-        Task AddPlantAsync(PlantDTO plantDto);
-        Task<List<Plants>> GetPlantsAsync();
-        Task UpdatePlantAsync(int id, PlantDTO plantDto);
-        Task DeletePlantAsync(int id);
-        Task<PlantDetailDTO> GetPlantDetailsAsync(int plantId);
+        Task<int> AddPlant(Plant plant);
+        Task<IEnumerable<Plant>> GetPlants();
+        Task UpdatePlant(Plant plant);
+        Task DeletePlant(int plantId);
     }
 }

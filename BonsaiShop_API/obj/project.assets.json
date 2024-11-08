@@ -8202,11 +8202,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\duong\\source\\repos\\Haha\\BonsaiShop\\BonsaiShop_API\\BonsaiShop_API.csproj",
+      "projectUniqueName": "C:\\Users\\duong\\source\\repos\\Tuan1\\BonsaiShop\\BonsaiShop_API\\BonsaiShop_API.csproj",
       "projectName": "BonsaiShop_API",
-      "projectPath": "C:\\Users\\duong\\source\\repos\\Haha\\BonsaiShop\\BonsaiShop_API\\BonsaiShop_API.csproj",
+      "projectPath": "C:\\Users\\duong\\source\\repos\\Tuan1\\BonsaiShop\\BonsaiShop_API\\BonsaiShop_API.csproj",
       "packagesPath": "C:\\Users\\duong\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\duong\\source\\repos\\Haha\\BonsaiShop\\BonsaiShop_API\\obj\\",
+      "outputPath": "C:\\Users\\duong\\source\\repos\\Tuan1\\BonsaiShop\\BonsaiShop_API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\duong\\AppData\\Roaming\\NuGet\\NuGet.Config",

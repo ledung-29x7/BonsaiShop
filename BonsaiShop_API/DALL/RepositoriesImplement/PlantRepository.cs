@@ -1,92 +1,62 @@
-﻿using AutoMapper;
-using BonsaiShop_API.Areas.Garden.Models;
+﻿using BonsaiShop_API.Areas.Garden.Models;
 using BonsaiShop_API.DALL.Repositories;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using System.Data;
 
 namespace BonsaiShop_API.DALL.RepositoriesImplement
 {
     public class PlantRepository : IPlantRepository
     {
-        private readonly BonsaiDbcontext _dbcontext;
-        private readonly IMapper _mapper;
+        private readonly BonsaiDbcontext _context;
 
-        public PlantRepository(BonsaiDbcontext dbcontext, IMapper mapper)
+        public PlantRepository(BonsaiDbcontext context)
         {
-            _dbcontext = dbcontext;
-            _mapper = mapper;
+            _context = context;
         }
 
-        // Thêm cây cảnh
-        public async Task AddPlantAsync(PlantDTO plantDto)
+        public async Task<int> AddPlant(Plant plant)
         {
-            var categoryIdParam = new SqlParameter("@CategoryId", plantDto.CategoryId);
-            var gardenIdParam = new SqlParameter("@GardenId", plantDto.GardenId);
-            var plantNameParam = new SqlParameter("@PlantName", plantDto.PlantName);
-            var priceParam = new SqlParameter("@Price", plantDto.Price);
-            var isAvailableParam = new SqlParameter("@IsAvailable", plantDto.IsAvailable);
-            var descriptionParam = new SqlParameter("@Description", plantDto.Description);
+            var newPlantId = new SqlParameter("@NewPlantId", SqlDbType.Int) { Direction = ParameterDirection.Output };
 
-            await _dbcontext.Database.ExecuteSqlRawAsync(
+            await _context.Database.ExecuteSqlRawAsync(
                 "EXEC AddPlant @CategoryId, @GardenId, @PlantName, @Price, @IsAvailable, @Description",
-                categoryIdParam, gardenIdParam, plantNameParam, priceParam, isAvailableParam, descriptionParam);
+                new SqlParameter("@CategoryId", plant.CategoryId),
+                new SqlParameter("@GardenId", plant.GardenId),
+                new SqlParameter("@PlantName", plant.PlantName),
+                new SqlParameter("@Price", plant.Price),
+                new SqlParameter("@IsAvailable", plant.IsAvailable),
+                new SqlParameter("@Description", plant.Description)
+            );
+
+            return (int)newPlantId.Value;
         }
 
-        // Lấy danh sách cây cảnh
-        //public async Task<List<PlantDTO>> GetPlantsAsync()
-        //{
-        //    var plants = await _dbcontext.Plants
-        //        .FromSqlRaw("EXEC GetPlants")
-        //        .ToListAsync();
-
-        //    return _mapper.Map<List<PlantDTO>>(plants);
-        //}
-
-        // Cập nhật cây cảnh
-        public async Task UpdatePlantAsync(int id, PlantDTO plantDto)
+        public async Task<IEnumerable<Plant>> GetPlants()
         {
-            var plantIdParam = new SqlParameter("@PlantId", id);
-            var categoryIdParam = new SqlParameter("@CategoryId", plantDto.CategoryId);
-            var gardenIdParam = new SqlParameter("@GardenId", plantDto.GardenId);
-            var plantNameParam = new SqlParameter("@PlantName", plantDto.PlantName);
-            var priceParam = new SqlParameter("@Price", plantDto.Price);
-            var isAvailableParam = new SqlParameter("@IsAvailable", plantDto.IsAvailable);
-            var descriptionParam = new SqlParameter("@Description", plantDto.Description);
+            return await _context.Plants.FromSqlRaw("EXEC GetPlants").ToListAsync();
+        }
 
-            await _dbcontext.Database.ExecuteSqlRawAsync(
+        public async Task UpdatePlant(Plant plant)
+        {
+            await _context.Database.ExecuteSqlRawAsync(
                 "EXEC UpdatePlant @PlantId, @CategoryId, @GardenId, @PlantName, @Price, @IsAvailable, @Description",
-                plantIdParam, categoryIdParam, gardenIdParam, plantNameParam, priceParam, isAvailableParam, descriptionParam);
+                new SqlParameter("@PlantId", plant.PlantId),
+                new SqlParameter("@CategoryId", plant.CategoryId),
+                new SqlParameter("@GardenId", plant.GardenId),
+                new SqlParameter("@PlantName", plant.PlantName),
+                new SqlParameter("@Price", plant.Price),
+                new SqlParameter("@IsAvailable", plant.IsAvailable),
+                new SqlParameter("@Description", plant.Description)
+            );
         }
 
-        // Xóa cây cảnh
-        public async Task DeletePlantAsync(int id)
+        public async Task DeletePlant(int plantId)
         {
-            var plantIdParam = new SqlParameter("@PlantId", id);
-
-            await _dbcontext.Database.ExecuteSqlRawAsync(
-                "EXEC DeletePlant @PlantId", plantIdParam);
-        }
-
-        public async Task<PlantDetailDTO> GetPlantDetailsAsync(int plantId)
-        {
-            var plantIdParam = new SqlParameter("@PlantId", plantId);
-
-            var plant = await _dbcontext.Plants
-                .FromSqlRaw("EXEC GetPlantDetails @PlantId", plantIdParam)
-                .Include(p => p.Images) // Assumes Plant entity has a navigation property `Images`
-                .FirstOrDefaultAsync();
-
-            if (plant == null) return null;
-
-            return _mapper.Map<PlantDetailDTO>(plant);
-        }
-
-        public async Task<List<Plants>> GetPlantsAsync()
-        {
-            var plants = await _dbcontext.Plants
-                .FromSqlRaw("EXEC GetPlants")
-                .ToListAsync();
-            return plants;
+            await _context.Database.ExecuteSqlRawAsync(
+                "EXEC DeletePlant @PlantId",
+                new SqlParameter("@PlantId", plantId)
+            );
         }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8vE6PrB9D1s=",
+  "dgSpecHash": "UyB7ch/IMJw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\duong\\source\\repos\\Haha\\BonsaiShop\\BonsaiShop_API\\BonsaiShop_API.csproj",
+  "projectFilePath": "C:\\Users\\duong\\source\\repos\\Tuan1\\BonsaiShop\\BonsaiShop_API\\BonsaiShop_API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\duong\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\duong\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
