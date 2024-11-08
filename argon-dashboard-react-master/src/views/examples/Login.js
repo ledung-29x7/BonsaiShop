@@ -20,6 +20,7 @@
 // import * as apis from "../../apis"
 import { useState } from "react";
 import * as apis from "../../apis"
+import * as actions from "../../store/actions"
 import { useSelector,useDispatch } from "react-redux";
 import {
   Button,
@@ -40,6 +41,7 @@ import { useNavigate } from "react-router-dom";
 
 const Login = () => {
   const {} = useSelector(state => state.app)
+  const dispatch = useDispatch()
   const navigate = useNavigate()
   const [formData,setFormData] = useState({
     email: "",
@@ -56,6 +58,8 @@ const Login = () => {
         await apis.login(formData)
         .then(res => {
           if(res.status === 200) {
+            window.sessionStorage.setItem("token", res.data.token);
+            dispatch(actions.checkLogin(true))
             navigate('/')
           }
         })

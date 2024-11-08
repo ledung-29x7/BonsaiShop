@@ -23,6 +23,7 @@ import Login from "views/examples/Login.js";
 import Tables from "views/examples/Tables.js";
 import Icons from "views/examples/Icons.js";
 import Home from "views/client/Home";
+import Products from "views/client/Products";
 
 var routes = [
   {
@@ -79,6 +80,13 @@ var routes = [
     name: "Home",
     icon: "ni ni-circle-08 text-pink",
     component: <Home/>,
+    layout: "/client",
+  },
+  {
+    path: "/product",
+    name: "Product",
+    icon: "ni ni-circle-08 text-pink",
+    component: <Products/>,
     layout: "/client",
   }
 ];
