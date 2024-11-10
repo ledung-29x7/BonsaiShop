@@ -31,6 +31,8 @@ namespace BonsaiShop_API
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderDetail> OrderDetails { get; set; }
         public DbSet<Garden> Gardens { get; set; }
+        public DbSet<PlantImage> PlantImages { get; set; }
+        public DbSet<GardenImages> GardenImages { get; set; }
 
 
     }

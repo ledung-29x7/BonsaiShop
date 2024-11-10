@@ -19,7 +19,6 @@ namespace BonsaiShop_API.DALL.RepositoriesImplement
         }
 
 
-        // Add a new plant using the AddPlant stored procedure
         public async Task<Plants> AddPlantAsync(Plants plant)
         {
             var categoryIdParam = new SqlParameter("@CategoryId", plant.CategoryId);
@@ -29,23 +28,13 @@ namespace BonsaiShop_API.DALL.RepositoriesImplement
             var isAvailableParam = new SqlParameter("@IsAvailable", plant.IsAvailable);
             var descriptionParam = new SqlParameter("@Description", plant.Description ?? (object)DBNull.Value);
 
-            var plantIdParam = new SqlParameter
-            {
-                ParameterName = "@PlantId",
-                SqlDbType = SqlDbType.Int,
-                Direction = ParameterDirection.Output
-            };
+            await _dbContext.Database.ExecuteSqlRawAsync(
+                "EXEC dbo.AddPlant @CategoryId, @GardenId, @PlantName, @Price, @IsAvailable, @Description",
+                categoryIdParam, gardenIdParam, plantNameParam, priceParam, isAvailableParam, descriptionParam);
 
-            await _dbContext.Database.ExecuteSqlRawAsync("EXEC dbo.AddPlant @CategoryId, @GardenId, @PlantName, @Price, @IsAvailable, @Description, @PlantId OUTPUT",
-                categoryIdParam, gardenIdParam, plantNameParam, priceParam, isAvailableParam, descriptionParam, plantIdParam);
-
-            // Fetch the PlantId from the output parameter
-            int plantId = (int)plantIdParam.Value;
-
-            // Return the added plant with the correct PlantId
-            plant.PlantId = plantId;
             return plant;
         }
+
 
         // Get all plants using the GetAllPlants stored procedure
         public async Task<IEnumerable<Plants>> GetAllPlantsAsync()
