@@ -14,6 +14,6 @@ namespace BonsaiShop_API.Areas.Garden.Models
         public string Caption { get; set; }
         public bool IsPrimary { get; set; } = false;
         public DateTime UploadedAt { get; set; } = DateTime.Now;
-        public Plants Plants { get; set; }
+        //public Plants Plants { get; set; }
     }
 }

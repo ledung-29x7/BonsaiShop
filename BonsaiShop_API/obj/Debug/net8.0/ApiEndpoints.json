@@ -340,6 +340,80 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BonsaiShop_API.Areas.Garden.Controllers.PlantImageController",
+    "Method": "AddImage",
+    "RelativePath": "api/plants/images",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "plantImage",
+        "Type": "BonsaiShop_API.Areas.Garden.Models.PlantImage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BonsaiShop_API.Areas.Garden.Controllers.PlantImageController",
+    "Method": "GetImageById",
+    "RelativePath": "api/plants/images/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BonsaiShop_API.Areas.Garden.Controllers.PlantImageController",
+    "Method": "DeletePlantImage",
+    "RelativePath": "api/plants/images/{imageId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "imageId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BonsaiShop_API.Areas.Garden.Controllers.PlantImageController",
+    "Method": "GetImagesByPlantId",
+    "RelativePath": "api/plants/images/plant/{plantId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "plantId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[BonsaiShop_API.Areas.Garden.Models.PlantImage, BonsaiShop_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "BonsaiShop_API.Areas.Garden.Controllers.PlantsController",
     "Method": "SearchPlants",
     "RelativePath": "api/plants/search",

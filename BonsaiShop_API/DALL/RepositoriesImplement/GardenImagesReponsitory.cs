@@ -32,7 +32,7 @@ namespace BonsaiShop_API.DALL.RepositoriesImplement
         public async Task DeleteGardenImageAsync(int imageId)
         {
             await dbcontext.Database.ExecuteSqlRawAsync(
-                "EXEC DeleteGardenImage @GardenImageId",
+                "EXEC DeletePlantImage @GardenImageId",
                 new SqlParameter("@GardenImageId", imageId));
         }
 
