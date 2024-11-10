@@ -1,65 +1,57 @@
-﻿using AutoMapper;
-using BonsaiShop_API.Areas.Garden.Models;
-using BonsaiShop_API.DALL.Repositories;
-using Microsoft.Data.SqlClient;
+﻿using BonsaiShop_API.Areas.Garden.Models;
 using Microsoft.EntityFrameworkCore;
+using System.Data;
+using Microsoft.Data.SqlClient;
 
-namespace BonsaiShop_API.DALL.RepositoriesImplement
+namespace BonsaiShop_API.DALL.Repositories
 {
     public class GardenRepository : IGardenRepository
     {
-        private readonly IMapper _mapper;
-        private readonly BonsaiDbcontext _dbcontext;
-        public GardenRepository(IMapper mapper, BonsaiDbcontext dbcontext) 
+        private readonly BonsaiDbcontext _context;
+
+        public GardenRepository(BonsaiDbcontext context)
         {
-            _dbcontext = dbcontext;
-            _mapper= mapper;
-        }
-        public async Task<Gardens> CreateGardenAsync(GardenCreateDto gardenCreateDto)
-        {
-            var garden = _mapper.Map<Gardens>(gardenCreateDto);
-
-            var nameParam = new SqlParameter("@GardenName", garden.GardenName);
-            var addressParam = new SqlParameter("@Address", garden.Address ?? (object)DBNull.Value);
-            var phoneParam = new SqlParameter("@Phone", garden.Phone ?? (object)DBNull.Value);
-            var descParam = new SqlParameter("@Description", garden.Description ?? (object)DBNull.Value);
-            var ownerIdParam = new SqlParameter("@GardenOwnerId", garden.GardenOwnerId);
-
-            await _dbcontext.Database.ExecuteSqlRawAsync("EXEC CreateGarden @GardenName, @Address, @Phone, @Description, @GardenOwnerId",
-                nameParam, addressParam, phoneParam, descParam, ownerIdParam);
-
-            return garden;
+            _context = context;
         }
 
-        public async Task<bool> DeleteGardenAsync(int gardenId)
+        public async Task<int> AddGarden(Garden garden)
         {
-            var idParam = new SqlParameter("@GardenId", gardenId);
-            var result = await _dbcontext.Database.ExecuteSqlRawAsync("EXEC DeleteGarden @GardenId", idParam);
-            return result > 0;
+            var gardenIdParam = new SqlParameter("@GardenId", SqlDbType.Int) { Direction = ParameterDirection.Output };
+            await _context.Database.ExecuteSqlRawAsync(
+                "EXEC spAddGarden @GardenOwnerId, @GardenName, @Address, @Phone, @Description",
+                new SqlParameter("@GardenOwnerId", garden.GardenOwnerId),
+                new SqlParameter("@GardenName", garden.GardenName),
+                new SqlParameter("@Address", garden.Address),
+                new SqlParameter("@Phone", garden.Phone),
+                new SqlParameter("@Description", garden.Description)
+            );
+
+            return (int)gardenIdParam.Value;
         }
 
-        public async Task<List<Gardens>> GetGardensAsync()
+        public async Task<List<Garden>> GetGardens()
         {
-            return await _dbcontext.Gardens
-            .FromSqlRaw("EXEC GetGardens")
-            .ToListAsync();
+            return await _context.Gardens.FromSqlRaw("EXEC spGetGardens").ToListAsync();
         }
 
-        public async Task<Gardens> UpdateGardenAsync(int gardenId, GardenCreateDto gardenCreateDto)
+        public async Task UpdateGarden(Garden garden)
         {
-            var garden = _mapper.Map<Gardens>(gardenCreateDto);
-            garden.GardenId = gardenId;
+            await _context.Database.ExecuteSqlRawAsync(
+                "EXEC spUpdateGarden @GardenId, @GardenName, @Address, @Phone, @Description",
+                new SqlParameter("@GardenId", garden.GardenId),
+                new SqlParameter("@GardenName", garden.GardenName),
+                new SqlParameter("@Address", garden.Address),
+                new SqlParameter("@Phone", garden.Phone),
+                new SqlParameter("@Description", garden.Description)
+            );
+        }
 
-            var idParam = new SqlParameter("@GardenId", gardenId);
-            var nameParam = new SqlParameter("@GardenName", garden.GardenName);
-            var addressParam = new SqlParameter("@Address", garden.Address ?? (object)DBNull.Value);
-            var phoneParam = new SqlParameter("@Phone", garden.Phone ?? (object)DBNull.Value);
-            var descParam = new SqlParameter("@Description", garden.Description ?? (object)DBNull.Value);
-
-            await _dbcontext.Database.ExecuteSqlRawAsync("EXEC UpdateGarden @GardenId, @GardenName, @Address, @Phone, @Description",
-                idParam, nameParam, addressParam, phoneParam, descParam);
-
-            return garden;
+        public async Task DeleteGarden(int gardenId)
+        {
+            await _context.Database.ExecuteSqlRawAsync(
+                "EXEC spDeleteGarden @GardenId",
+                new SqlParameter("@GardenId", gardenId)
+            );
         }
     }
 }

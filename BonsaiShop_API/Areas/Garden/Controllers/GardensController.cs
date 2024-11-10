@@ -1,8 +1,8 @@
-﻿using AutoMapper;
-using BonsaiShop_API.Areas.Garden.Models;
-using BonsaiShop_API.DALL.Repositories;
-using Microsoft.AspNetCore.Authorization;
+﻿using BonsaiShop_API.Areas.Garden.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace BonsaiShop_API.Areas.Garden.Controllers
 {
@@ -10,57 +10,75 @@ namespace BonsaiShop_API.Areas.Garden.Controllers
     [ApiController]
     public class GardensController : ControllerBase
     {
-        private readonly IGardenRepository _gardenRepository;
-        private readonly IMapper _mapper;
+        private readonly BonsaiDbcontext _context;
 
-        public GardensController(IGardenRepository gardenRepository, IMapper mapper)
+        public GardensController(BonsaiDbcontext context)
         {
-            _gardenRepository = gardenRepository;
-            _mapper = mapper;
+            _context = context;
         }
 
-        // Đăng ký tài khoản nhà vườn
+        // POST /api/Gardens - Thêm nhà vườn mới
         [HttpPost]
-        [Authorize(Roles = "ADMIN, GARDEN")]
-        public async Task<IActionResult> CreateGarden([FromBody] GardenCreateDto gardenCreateDto)
+        public async Task<IActionResult> AddGarden([FromBody] Models.Garden garden)
         {
-            var garden = await _gardenRepository.CreateGardenAsync(gardenCreateDto);
-            var result = _mapper.Map<GardenDto>(garden);
-            return Ok(result);
-            
+            if (garden == null)
+                return BadRequest("Invalid garden data.");
+
+            _context.Gardens.Add(garden);
+            await _context.SaveChangesAsync();
+            return CreatedAtAction(nameof(GetGardenById), new { id = garden.GardenId }, garden);
         }
 
-        // Lấy danh sách nhà vườn
+        // GET /api/Gardens - Lấy danh sách nhà vườn
         [HttpGet]
-        public async Task<IActionResult> GetGardens()
+        public async Task<ActionResult<IEnumerable<Models.Garden>>> GetGardens()
         {
-            var gardens = await _gardenRepository.GetGardensAsync();
-            var result = _mapper.Map<IEnumerable<GardenDto>>(gardens);
-            return Ok(result);
+            var gardens = await _context.Gardens.ToListAsync();
+            return Ok(gardens);
         }
 
-        // Cập nhật thông tin nhà vườn
-        [HttpPut("{id}")]
-        [Authorize(Roles = "ADMIN, GARDEN")]
-        public async Task<IActionResult> UpdateGarden(int id, [FromBody] GardenCreateDto gardenCreateDto)
+        // GET /api/Gardens/{id} - Lấy thông tin nhà vườn theo ID
+        [HttpGet("{id:int}")]
+        public async Task<ActionResult<Models.Garden>> GetGardenById(int id)
         {
-            var updatedGarden = await _gardenRepository.UpdateGardenAsync(id, gardenCreateDto);
-            if (updatedGarden == null)
+            var garden = await _context.Gardens.FindAsync(id);
+            if (garden == null)
                 return NotFound();
-            var result = _mapper.Map<GardenDto>(updatedGarden);
-            return Ok(result);
+
+            return Ok(garden);
         }
 
-        // Xóa nhà vườn
-        [HttpDelete("{id}")]
-        [Authorize(Roles = "ADMIN")]
-        public async Task<IActionResult> DeleteGarden(int id)
+        // PUT /api/Gardens/{id} - Cập nhật thông tin nhà vườn
+        [HttpPut("{id:int}")]
+        public async Task<IActionResult> UpdateGarden(int id, [FromBody] Models.Garden garden)
         {
-            var result = await _gardenRepository.DeleteGardenAsync(id);
-            if (!result)
+            if (id != garden.GardenId)
+                return BadRequest("Garden ID mismatch.");
+
+            var existingGarden = await _context.Gardens.FindAsync(id);
+            if (existingGarden == null)
                 return NotFound();
+
+            existingGarden.GardenName = garden.GardenName;
+            existingGarden.Address = garden.Address;
+            existingGarden.Phone = garden.Phone;
+            existingGarden.Description = garden.Description;
+
+            await _context.SaveChangesAsync();
             return NoContent();
         }
 
+        // DELETE /api/Gardens/{id} - Xóa nhà vườn
+        [HttpDelete("{id:int}")]
+        public async Task<IActionResult> DeleteGarden(int id)
+        {
+            var garden = await _context.Gardens.FindAsync(id);
+            if (garden == null)
+                return NotFound();
+
+            _context.Gardens.Remove(garden);
+            await _context.SaveChangesAsync();
+            return NoContent();
+        }
     }
 }

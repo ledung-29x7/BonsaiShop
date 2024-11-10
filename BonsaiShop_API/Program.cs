@@ -35,6 +35,7 @@ builder.Services.AddScoped<AuthService>();
 builder.Services.AddScoped<ITokenBlacklistRepository, RedisTokenBlacklistRepository>();
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<IPlantRepository, PlantRepository>();
+builder.Services.AddScoped<IGardenRepository, GardenRepository>();
 
 
 

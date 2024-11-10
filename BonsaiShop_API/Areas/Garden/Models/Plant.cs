@@ -12,5 +12,7 @@ namespace BonsaiShop_API.Areas.Garden.Models
         public bool IsAvailable { get; set; } = true;
         public string? Description { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.Now;
+        public int? GardenId { get; set; }
+
     }
 }

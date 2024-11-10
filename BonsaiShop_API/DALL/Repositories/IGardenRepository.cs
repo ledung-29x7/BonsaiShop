@@ -4,9 +4,9 @@ namespace BonsaiShop_API.DALL.Repositories
 {
     public interface IGardenRepository
     {
-        Task<Gardens> CreateGardenAsync(GardenCreateDto gardenCreateDto);
-        Task<List<Gardens>> GetGardensAsync();
-        Task<Gardens> UpdateGardenAsync(int gardenId, GardenCreateDto gardenCreateDto);
-        Task<bool> DeleteGardenAsync(int gardenId);
+        Task<int> AddGarden(Garden garden);
+        Task<List<Garden>> GetGardens();
+        Task UpdateGarden(Garden garden);
+        Task DeleteGarden(int gardenId);
     }
 }

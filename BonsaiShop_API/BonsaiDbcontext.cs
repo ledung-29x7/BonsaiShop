@@ -24,7 +24,7 @@ namespace BonsaiShop_API
 
         public DbSet<User> Users { get; set; }
         public DbSet<Categories> Categories { get; set; }
-        public DbSet<Gardens> Gardens { get; set; }
+        public DbSet<Garden> Gardens { get; set; }
         public DbSet<GardenImages> GardenImages { get; set; }
         public DbSet<PlantImages> PlantImages { get; set; }
         public DbSet<Plant> Plants { get; set; }
