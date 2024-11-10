@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|d:\\projectc_sem3\\be\\bonsaishop\\bonsaishop_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|d:\\projectc_sem3\\be\\bonsaishop\\bonsaishop_api\\areas\\garden\\controllers\\gardenimagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\areas\\garden\\controllers\\gardenimagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,8 +15,20 @@
       "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\dall\\repositories\\igardenimagesreponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|d:\\projectc_sem3\\be\\bonsaishop\\bonsaishop_api\\dall\\repositories\\igardensreponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\dall\\repositories\\igardensreponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|d:\\projectc_sem3\\be\\bonsaishop\\bonsaishop_api\\areas\\garden\\models\\gardenimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\areas\\garden\\models\\gardenimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|d:\\projectc_sem3\\be\\bonsaishop\\bonsaishop_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|d:\\projectc_sem3\\be\\bonsaishop\\bonsaishop_api\\areas\\user\\controllers\\orderdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\areas\\user\\controllers\\orderdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|d:\\projectc_sem3\\be\\bonsaishop\\bonsaishop_api\\areas\\garden\\controllers\\gardenscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|d:\\projectc_sem3\\be\\bonsaishop\\bonsaishop_api\\dall\\repositoriesimplement\\plantimagereponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\dall\\repositoriesimplement\\plantimagereponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|d:\\projectc_sem3\\be\\bonsaishop\\bonsaishop_api\\dall\\repositories\\igardensreponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\dall\\repositories\\igardensreponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|d:\\projectc_sem3\\be\\bonsaishop\\bonsaishop_api\\areas\\garden\\models\\garden.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -77,10 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|d:\\projectc_sem3\\be\\bonsaishop\\bonsaishop_api\\dall\\repositories\\iplantsreponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\dall\\repositories\\iplantsreponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|d:\\projectc_sem3\\be\\bonsaishop\\bonsaishop_api\\areas\\user\\controllers\\orderdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|solutionrelative:bonsaishop_api\\areas\\user\\controllers\\orderdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{71526F34-94FA-45E3-874D-A9B9EB766C30}|BonsaiShop_API\\BonsaiShop_API.csproj|d:\\projectc_sem3\\be\\bonsaishop\\bonsaishop_api\\areas\\garden\\models\\plants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -138,84 +138,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\Program.cs",
-              "RelativeDocumentMoniker": "BonsaiShop_API\\Program.cs",
-              "ToolTip": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\Program.cs",
-              "RelativeToolTip": "BonsaiShop_API\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAkwCQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T01:12:48.707Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GardenImageController.cs",
-              "DocumentMoniker": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\Areas\\Garden\\Controllers\\GardenImageController.cs",
-              "RelativeDocumentMoniker": "BonsaiShop_API\\Areas\\Garden\\Controllers\\GardenImageController.cs",
-              "ToolTip": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\Areas\\Garden\\Controllers\\GardenImageController.cs",
-              "RelativeToolTip": "BonsaiShop_API\\Areas\\Garden\\Controllers\\GardenImageController.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAmwEkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T09:58:30.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GardensController.cs",
-              "DocumentMoniker": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\Areas\\Garden\\Controllers\\GardensController.cs",
-              "RelativeDocumentMoniker": "BonsaiShop_API\\Areas\\Garden\\Controllers\\GardensController.cs",
-              "ToolTip": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\Areas\\Garden\\Controllers\\GardensController.cs",
-              "RelativeToolTip": "BonsaiShop_API\\Areas\\Garden\\Controllers\\GardensController.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T07:22:00.755Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PlantsController.cs",
-              "DocumentMoniker": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\Areas\\Garden\\Controllers\\PlantsController.cs",
-              "RelativeDocumentMoniker": "BonsaiShop_API\\Areas\\Garden\\Controllers\\PlantsController.cs",
-              "ToolTip": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\Areas\\Garden\\Controllers\\PlantsController.cs",
-              "RelativeToolTip": "BonsaiShop_API\\Areas\\Garden\\Controllers\\PlantsController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T01:52:47.293Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "GardenImagesReponsitory.cs",
               "DocumentMoniker": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\DALL\\RepositoriesImplement\\GardenImagesReponsitory.cs",
               "RelativeDocumentMoniker": "BonsaiShop_API\\DALL\\RepositoriesImplement\\GardenImagesReponsitory.cs",
               "ToolTip": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\DALL\\RepositoriesImplement\\GardenImagesReponsitory.cs",
               "RelativeToolTip": "BonsaiShop_API\\DALL\\RepositoriesImplement\\GardenImagesReponsitory.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAYwBsAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-09T08:55:09.187Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "IGardenImagesReponsitory.cs",
               "DocumentMoniker": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\DALL\\Repositories\\IGardenImagesReponsitory.cs",
               "RelativeDocumentMoniker": "BonsaiShop_API\\DALL\\Repositories\\IGardenImagesReponsitory.cs",
               "ToolTip": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\DALL\\Repositories\\IGardenImagesReponsitory.cs",
               "RelativeToolTip": "BonsaiShop_API\\DALL\\Repositories\\IGardenImagesReponsitory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-09T08:54:57.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GardenImageController.cs",
+              "DocumentMoniker": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\Areas\\Garden\\Controllers\\GardenImageController.cs",
+              "RelativeDocumentMoniker": "BonsaiShop_API\\Areas\\Garden\\Controllers\\GardenImageController.cs",
+              "ToolTip": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\Areas\\Garden\\Controllers\\GardenImageController.cs",
+              "RelativeToolTip": "BonsaiShop_API\\Areas\\Garden\\Controllers\\GardenImageController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAAFIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T09:58:30.746Z",
               "EditorCaption": ""
             },
             {
@@ -233,7 +194,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 3,
+              "Title": "IGardensReponsitory.cs",
+              "DocumentMoniker": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\DALL\\Repositories\\IGardensReponsitory.cs",
+              "RelativeDocumentMoniker": "BonsaiShop_API\\DALL\\Repositories\\IGardensReponsitory.cs",
+              "ToolTip": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\DALL\\Repositories\\IGardensReponsitory.cs",
+              "RelativeToolTip": "BonsaiShop_API\\DALL\\Repositories\\IGardensReponsitory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T06:58:13.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderDetailController.cs",
+              "DocumentMoniker": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\Areas\\User\\Controllers\\OrderDetailController.cs",
+              "RelativeDocumentMoniker": "BonsaiShop_API\\Areas\\User\\Controllers\\OrderDetailController.cs",
+              "ToolTip": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\Areas\\User\\Controllers\\OrderDetailController.cs",
+              "RelativeToolTip": "BonsaiShop_API\\Areas\\User\\Controllers\\OrderDetailController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T08:00:14.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GardensController.cs",
+              "DocumentMoniker": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\Areas\\Garden\\Controllers\\GardensController.cs",
+              "RelativeDocumentMoniker": "BonsaiShop_API\\Areas\\Garden\\Controllers\\GardensController.cs",
+              "ToolTip": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\Areas\\Garden\\Controllers\\GardensController.cs",
+              "RelativeToolTip": "BonsaiShop_API\\Areas\\Garden\\Controllers\\GardensController.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAAAB0AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T07:22:00.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\Program.cs",
+              "RelativeDocumentMoniker": "BonsaiShop_API\\Program.cs",
+              "ToolTip": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\Program.cs",
+              "RelativeToolTip": "BonsaiShop_API\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAUwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T01:12:48.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlantsController.cs",
+              "DocumentMoniker": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\Areas\\Garden\\Controllers\\PlantsController.cs",
+              "RelativeDocumentMoniker": "BonsaiShop_API\\Areas\\Garden\\Controllers\\PlantsController.cs",
+              "ToolTip": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\Areas\\Garden\\Controllers\\PlantsController.cs",
+              "RelativeToolTip": "BonsaiShop_API\\Areas\\Garden\\Controllers\\PlantsController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T01:52:47.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "IPlantImageReponsitory.cs",
               "DocumentMoniker": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\DALL\\Repositories\\IPlantImageReponsitory.cs",
               "RelativeDocumentMoniker": "BonsaiShop_API\\DALL\\Repositories\\IPlantImageReponsitory.cs",
@@ -245,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "PlantImageReponsitory.cs",
               "DocumentMoniker": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\DALL\\RepositoriesImplement\\PlantImageReponsitory.cs",
               "RelativeDocumentMoniker": "BonsaiShop_API\\DALL\\RepositoriesImplement\\PlantImageReponsitory.cs",
@@ -257,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "GardenReponsitory.cs",
               "DocumentMoniker": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\DALL\\RepositoriesImplement\\GardenReponsitory.cs",
               "RelativeDocumentMoniker": "BonsaiShop_API\\DALL\\RepositoriesImplement\\GardenReponsitory.cs",
@@ -266,18 +292,6 @@
               "ViewState": "AgIAADMAAAAAAAAAAAAAAD8AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T06:58:33.6Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IGardensReponsitory.cs",
-              "DocumentMoniker": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\DALL\\Repositories\\IGardensReponsitory.cs",
-              "RelativeDocumentMoniker": "BonsaiShop_API\\DALL\\Repositories\\IGardensReponsitory.cs",
-              "ToolTip": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\DALL\\Repositories\\IGardensReponsitory.cs",
-              "RelativeToolTip": "BonsaiShop_API\\DALL\\Repositories\\IGardensReponsitory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T06:58:13.055Z"
             },
             {
               "$type": "Document",
@@ -300,18 +314,6 @@
               "RelativeToolTip": "BonsaiShop_API\\Script\\script.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2024-11-06T14:33:19.325Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "OrderDetailController.cs",
-              "DocumentMoniker": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\Areas\\User\\Controllers\\OrderDetailController.cs",
-              "RelativeDocumentMoniker": "BonsaiShop_API\\Areas\\User\\Controllers\\OrderDetailController.cs",
-              "ToolTip": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\Areas\\User\\Controllers\\OrderDetailController.cs",
-              "RelativeToolTip": "BonsaiShop_API\\Areas\\User\\Controllers\\OrderDetailController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T08:00:14.451Z"
             },
             {
               "$type": "Document",
@@ -339,7 +341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "PlantImage.cs",
               "DocumentMoniker": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\Areas\\Garden\\Models\\PlantImage.cs",
               "RelativeDocumentMoniker": "BonsaiShop_API\\Areas\\Garden\\Models\\PlantImage.cs",
@@ -351,7 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Garden.cs",
               "DocumentMoniker": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\Areas\\Garden\\Models\\Garden.cs",
               "RelativeDocumentMoniker": "BonsaiShop_API\\Areas\\Garden\\Models\\Garden.cs",
@@ -411,7 +413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "PlantsReponsitory.cs",
               "DocumentMoniker": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\DALL\\RepositoriesImplement\\PlantsReponsitory.cs",
               "RelativeDocumentMoniker": "BonsaiShop_API\\DALL\\RepositoriesImplement\\PlantsReponsitory.cs",
@@ -423,7 +425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "IPlantsReponsitory.cs",
               "DocumentMoniker": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\DALL\\Repositories\\IPlantsReponsitory.cs",
               "RelativeDocumentMoniker": "BonsaiShop_API\\DALL\\Repositories\\IPlantsReponsitory.cs",
@@ -447,7 +449,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "OrderReponsitory.cs",
               "DocumentMoniker": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\DALL\\RepositoriesImplement\\OrderReponsitory.cs",
               "RelativeDocumentMoniker": "BonsaiShop_API\\DALL\\RepositoriesImplement\\OrderReponsitory.cs",
@@ -459,7 +461,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "IOrderReponsitory.cs",
               "DocumentMoniker": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\DALL\\Repositories\\IOrderReponsitory.cs",
               "RelativeDocumentMoniker": "BonsaiShop_API\\DALL\\Repositories\\IOrderReponsitory.cs",
@@ -495,7 +497,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "BonsaiShop_API.http",
               "DocumentMoniker": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\BonsaiShop_API.http",
               "RelativeDocumentMoniker": "BonsaiShop_API\\BonsaiShop_API.http",
@@ -519,7 +521,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "BonsaiDbcontext.cs",
               "DocumentMoniker": "D:\\ProJectC_SEM3\\BE\\BonsaiShop\\BonsaiShop_API\\BonsaiDbcontext.cs",
               "RelativeDocumentMoniker": "BonsaiShop_API\\BonsaiDbcontext.cs",
