@@ -58,9 +58,19 @@ const Login = () => {
         await apis.login(formData)
         .then(res => {
           if(res.status === 200) {
+            console.log(res)
             window.sessionStorage.setItem("token", res.data.token);
+            window.sessionStorage.setItem("role",res.data.role);
+            window.sessionStorage.setItem("name",res.data.userName)
             dispatch(actions.checkLogin(true))
-            navigate('/')
+            if(res.data.role === "USER"){
+              navigate("/")
+            }else if (res.data.role === "ADMIN"){
+              navigate("/admin/index")
+            }else {
+              navigate("/garden/index")
+            }
+
           }
         })
 

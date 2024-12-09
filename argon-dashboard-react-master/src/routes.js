@@ -24,10 +24,11 @@ import Tables from "views/examples/Tables.js";
 import Icons from "views/examples/Icons.js";
 import Home from "views/client/Home";
 import Products from "views/client/Products";
+import Plant from "views/client/Plant";
 
 var routes = [
   {
-    path: "/index",
+    path: "/index", 
     name: "Dashboard",
     icon: "ni ni-tv-2 text-primary",
     component: <Index />,
@@ -87,6 +88,13 @@ var routes = [
     name: "Product",
     icon: "ni ni-circle-08 text-pink",
     component: <Products/>,
+    layout: "/client",
+  },
+  {
+    path: "/plant/:id",
+    name: "Plant",
+    icon: "ni ni-circle-08 text-pink",
+    component: <Plant/>,
     layout: "/client",
   }
 ];

@@ -31,6 +31,7 @@ const ClientHeader = () => {
   const {checklogin} = useSelector(state => state.app)
   const [isChecking, setIsChecking] = useState(false);
   const [search,setSearch] = useState("")
+  const username = window.sessionStorage.getItem("name")
 
   const handleChange = (e)=>{
     setSearch({...search, [e.target.name]: e.target.value})
@@ -51,10 +52,11 @@ const ClientHeader = () => {
     document.cookie =
       name + "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
   }
-
+  
   // Hàm để lấy giá trị của một cookie
   function getCookie(name) {
     const cookies = document.cookie.split("; ");
+    console.log(cookies)
     for (let cookie of cookies) {
         const [key, value] = cookie.split("=");
         if (key === name) {
@@ -98,8 +100,8 @@ const ClientHeader = () => {
   }
 
   // handle Logout
-  const handleLogout = () => {
-    
+  const handleLogout = (e) => {
+    e.preventDefault()
     const FetchData = async () => {
       try {
         await apis.logout().then((res) => {
@@ -184,7 +186,7 @@ const ClientHeader = () => {
                   </span>
                   <Media className="ml-2 d-none d-lg-block">
                     <span className="mb-0 text-sm font-weight-bold">
-                      Jessica Jones
+                      {username}
                     </span>
                   </Media>
                 </Media>

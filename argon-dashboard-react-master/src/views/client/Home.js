@@ -5,8 +5,8 @@ import { useDispatch } from "react-redux";
 
 const Home = () => {
   const dispatch = useDispatch()
-  useEffect(()=>{
-    dispatch(actions.getHome())
+    useEffect(()=>{
+      dispatch(actions.getHome())
   },[])
   return (
     <div className="splide__track">

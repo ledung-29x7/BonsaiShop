@@ -32,7 +32,7 @@ const Client = () => {
             />
             <Routes>
             {getRoutes(routes)}
-            <Route path="*" element={<Navigate to="/admin/index" replace />} />
+            <Route path="*" element={<Navigate to="/client/home" replace />} />
             </Routes>
             <Container fluid>
             <AuthFooter />

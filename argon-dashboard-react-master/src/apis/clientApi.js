@@ -1,15 +1,26 @@
 import axios from "../axios";
 
-export const productPlamt = (plant) =>new Promise(async (resolve, reject) => {
+export const productPlamt = (id) =>new Promise(async (resolve, reject) => {
     try {
     const response = await axios({
-        url: `/${plant}`,
+        url: `/Plant/${id}`,
         method: "GET",
-        headers: {
-            Authorization: `Bearer ${window.sessionStorage.getItem("token")}`,
-        },
+        
     });
     resolve(response.data);
+    } catch (error) {
+    reject(error);
+    }
+});
+
+export const ImagePlant= (id) =>new Promise(async (resolve, reject) => {
+    try {
+    const response = await axios({
+        url: `/plant/${id}/images`,
+        method: "GET",
+        
+    });
+    resolve(response);
     } catch (error) {
     reject(error);
     }
@@ -18,14 +29,25 @@ export const productPlamt = (plant) =>new Promise(async (resolve, reject) => {
 export const homePlamt = () => new Promise(async (resolve, reject) => {
     try {
         const response = await axios({
-            url:"",
+            url:"/Plant",
             method: 'GET',
-            headers: {
-
-            }
+            
         })
         resolve(response)
     } catch (error) {
         reject(error)
     }
 })
+export const order = (data) => new Promise(async (resolve, reject) => {
+    try {
+        const response = await axios({
+            url:"/orders",
+            method: 'Post',
+            data: data
+        })
+        resolve(response)
+    } catch (error) {
+        reject(error)
+    }
+})
+
